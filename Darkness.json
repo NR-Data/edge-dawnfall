@@ -1,0 +1,1316 @@
+{
+  "catalogue": {
+    "name": "Darkness",
+    "id": "0bbe-1767-764c-8aad",
+    "authorContact": "blackfire@lion-productions.com",
+    "authorName": "Tamas \"Blackfire\" Mate",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "ec55-9fdc-cdc9-5247",
+    "gameSystemRevision": 2,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Alternative Darkness Banner",
+        "id": "8ee5-e3be-5d70-b197",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8753-d2a3-93f5-3c74",
+        "type": "selectionEntry",
+        "profiles": [
+          {
+            "name": "Alternative Darkness Banner",
+            "id": "4580-fd89-3f38-ce48",
+            "hidden": false,
+            "typeId": "17ad-aea3-540d-299a",
+            "typeName": "Squad Banner",
+            "characteristics": [
+              {"name": "INI", "$text": "1", "typeId": "dcf2-febb-0edd-e933"},
+              {"name": "ATT", "$text": "2", "typeId": "d4a9-b360-60ce-ad25"},
+              {"name": "DEF", "$text": "1", "typeId": "b209-739b-a755-7069"},
+              {"name": "MOV", "$text": "1", "typeId": "e2d3-23bb-eca4-42a2"},
+              {"name": "Models", "$text": "1", "typeId": "372f-eba5-758e-5484"},
+              {"name": "Endurance", "$text": "1", "typeId": "fa98-b3a8-ebc7-b2e7"},
+              {"name": "Base size", "$text": "7", "typeId": "e3e4-695e-aad3-72db"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Darkness Banner",
+        "id": "4432-49c3-c4e1-ed6c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "40be-a45a-62e4-2f18",
+        "type": "selectionEntry",
+        "profiles": [
+          {
+            "name": "Darkness Banner",
+            "id": "31bc-2703-ec2f-aed9",
+            "hidden": false,
+            "typeId": "17ad-aea3-540d-299a",
+            "typeName": "Squad Banner",
+            "characteristics": [
+              {"name": "INI", "$text": "4", "typeId": "dcf2-febb-0edd-e933"},
+              {"name": "ATT", "$text": "4", "typeId": "d4a9-b360-60ce-ad25"},
+              {"name": "DEF", "$text": "2", "typeId": "b209-739b-a755-7069"},
+              {"name": "MOV", "$text": "-", "typeId": "e2d3-23bb-eca4-42a2"},
+              {"name": "Models", "$text": "1", "typeId": "372f-eba5-758e-5484"},
+              {"name": "Endurance", "$text": "3", "typeId": "fa98-b3a8-ebc7-b2e7"},
+              {"name": "Base size", "$text": "7", "typeId": "e3e4-695e-aad3-72db"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Shadow Vortex",
+        "id": "6bc3-d6e4-32c9-d558",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "80ee-a4f3-7414-6f7f",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Shadow Gate",
+        "id": "09fa-4a37-aad8-bc40",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a4f1-09f2-eeee-4318",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Void Specter",
+        "id": "f00a-2884-f73f-fc33",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8ec5-3895-9783-631f",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Impostor",
+        "id": "5fe4-c746-2b6c-65c8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "9fcd-be42-2555-88a8",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Slaughter Crows",
+        "id": "df9f-43ab-ddca-720b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "38ad-dee4-3684-11da",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Bell Crow",
+        "id": "5dce-ccc6-4db2-61e3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d8e7-fdfc-2e2f-8c41",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Shadow",
+        "id": "6d57-af59-0ac6-2cf4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "2cf3-aaf8-0ede-6b81",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Prime Shadow",
+        "id": "9b03-fd6f-26ef-b587",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "120f-739e-9838-7542",
+        "type": "selectionEntry",
+        "selectionEntryGroups": [
+          {
+            "name": "Deployment",
+            "id": "209e-7c7a-0a46-f010",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntries": [
+              {
+                "name": "Deceit / Dark Reflection",
+                "id": "5d5e-402f-f38c-a70f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "categoryLinks": [
+                  {"name": "Deployment", "id": "1d76-2454-0be0-9d42", "hidden": false, "primary": false, "targetId": "ae92-56d7-4374-8b57"},
+                  {"name": "Enhancement", "id": "1cff-7665-fa3f-5220", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+                ],
+                "constraints": [
+                  {
+                    "id": "0d0a-8497-a756-5b58",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "7743-5835-7211-8dfd",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Deployment  Enhancement",
+                    "id": "b7fd-d8f1-7864-803e",
+                    "hidden": false,
+                    "typeId": "c7fb-3192-ca76-8d92",
+                    "typeName": "Action",
+                    "characteristics": [
+                      {"name": "Top Action", "$text": "Deceit", "typeId": "c646-7cd4-ba2f-267c"},
+                      {"name": "Bottom Action", "$text": "Dark Reflection", "typeId": "3c5c-4360-dcf5-6087"},
+                      {"name": "Squad", "$text": "Prime Shadow", "typeId": "c352-2911-cb6a-f6cb"},
+                      {"name": "Card count", "$text": "1", "typeId": "061e-3320-8c3a-c2be"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Birth / Darkness Herald",
+                "id": "f7ff-2aca-4837-287e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "categoryLinks": [{"name": "New CategoryLink", "id": "7edc-1bd3-9b55-1e8a", "hidden": false, "primary": false, "targetId": "ae92-56d7-4374-8b57"}],
+                "constraints": [
+                  {
+                    "id": "8a90-541e-1c6f-4506",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "0349-a7a1-3578-17ac",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Deployment  Action",
+                    "id": "6712-a123-6f62-a166",
+                    "hidden": false,
+                    "typeId": "c7fb-3192-ca76-8d92",
+                    "typeName": "Action",
+                    "characteristics": [
+                      {"name": "Top Action", "$text": "Birth", "typeId": "c646-7cd4-ba2f-267c"},
+                      {"name": "Bottom Action", "$text": "Darkness Herald", "typeId": "3c5c-4360-dcf5-6087"},
+                      {"name": "Squad", "$text": "Prime Shadow", "typeId": "c352-2911-cb6a-f6cb"},
+                      {"name": "Card count", "$text": "1", "typeId": "061e-3320-8c3a-c2be"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "profileTypes": [
+      {
+        "name": "Squad Banner",
+        "id": "17ad-aea3-540d-299a",
+        "characteristicTypes": [
+          {"name": "INI", "id": "dcf2-febb-0edd-e933"},
+          {"name": "ATT", "id": "d4a9-b360-60ce-ad25"},
+          {"name": "DEF", "id": "b209-739b-a755-7069"},
+          {"name": "MOV", "id": "e2d3-23bb-eca4-42a2"},
+          {"name": "Models", "id": "372f-eba5-758e-5484"},
+          {"name": "Endurance", "id": "fa98-b3a8-ebc7-b2e7"},
+          {"name": "Base size", "id": "e3e4-695e-aad3-72db"}
+        ]
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Dark Surge / Well of Darkness",
+        "id": "bbd9-5282-1ba6-d47b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "2f57-a4d3-050f-642c", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "5983-5f85-747a-d2e9",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "120f-739e-9838-7542",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "f096-6318-ccc8-f56f",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Dark Surge", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Well of Darkness", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Prime Shadow", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "3", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Portal / Cauterisation",
+        "id": "1182-2fa3-1165-20e6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "b2e6-0086-c66c-5029", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "024a-ba1e-9cad-d0a3",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "710a-a57b-95ec-d3e9",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Portal", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Cauterisation", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Any", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Move / Darkness Resurgent",
+        "id": "4849-345e-334f-5ec5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "f4dc-3d44-9ef3-04e0", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "8fa3-f16a-9ab2-4b0c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "29ac-a810-00b3-76f7",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Move", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Darkness Resurgent", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Any", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Shadow Way / Leech",
+        "id": "ef24-09ad-581e-bb92",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "72c2-ca29-4511-7d42", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "cc03-4166-02ee-af32",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "120f-739e-9838-7542",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "20a5-8ae4-c052-0a00",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Shadow Way", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Leech", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Prime Shadow", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "3", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Portal / Metamorphosis",
+        "id": "3d77-aa39-e77c-4141",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "65d0-69cf-0a95-ea53", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "ebb5-762a-dc1b-e925",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2cf3-aaf8-0ede-6b81",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "96e1-2f20-be18-d6f1",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Portal", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Metamorphosis", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Shadow", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Surge / Shadow Tendrils",
+        "id": "f68b-3e85-9592-4208",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "54ab-8a93-289d-8426", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "584b-dff3-57cf-8767",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2cf3-aaf8-0ede-6b81",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "cfa9-b2a3-90c8-d616",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Dark Surge", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Shadow Tendrils", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Shadow", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Move / Emptiness",
+        "id": "0c09-4aff-b90b-6eb8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a14d-73a6-8e5b-40c3", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "e2cc-5e0e-dde6-dcff",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2cf3-aaf8-0ede-6b81",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "1a6e-74ec-6bd4-f161",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Move", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Emptiness", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Shadow", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Surge / Bellower",
+        "id": "5215-e278-1c20-1ff8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "085b-86ff-c177-ffcd", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "2ff1-42b8-7e1f-6bc1",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d8e7-fdfc-2e2f-8c41",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "404d-2653-11e2-f5c6",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Dark Surge", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Bellower", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Bell Crow", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Repulse / Ominous Peal",
+        "id": "35c8-82c0-79db-00bb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "5d3d-c9bf-bd65-6aa3", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "dab9-e279-6a7c-8733",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d8e7-fdfc-2e2f-8c41",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "fb5b-2b96-930e-442e",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Repulse", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Ominous Peal", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Bell Crow", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Portal / Living Death",
+        "id": "2c00-4673-d4b4-d075",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "13ff-86f5-33e4-262e", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "be7a-91da-29ed-c480",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d8e7-fdfc-2e2f-8c41",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "5b2e-30d0-3ed9-afd3",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Portal", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Living Death", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Bell Crow", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Blood / Anger",
+        "id": "e859-6466-16d4-7344",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "4081-5f1e-34fc-490b", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "2fcd-cb6c-07ee-9653",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "38ad-dee4-3684-11da",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "b18b-a4ef-2e4a-e2b7",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Dark Blood", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Anger", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Slaughter Crows", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Portal / Hunger",
+        "id": "cc83-bbcf-37dd-e681",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "0802-7d6a-0361-f71b", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "8149-1704-e615-d59a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "38ad-dee4-3684-11da",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "3419-46b7-db44-1946",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Portal", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Hunger", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Slaughter Crows", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Surge / Murder of Crows",
+        "id": "0dbd-c71b-950e-0401",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c1f5-ebcc-1a5a-437e", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "7115-8b4e-d49b-3826",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "38ad-dee4-3684-11da",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "c033-2c3d-7a12-461b",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Dark Surge", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Murder of Crows", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Slaughter Crows", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Surge / Poison Kiss",
+        "id": "88f7-ca89-3d60-1872",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "4535-3ec2-aa10-b9e2", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "5c4b-0292-16d5-f634",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "9fcd-be42-2555-88a8",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "6dc8-edf3-0a23-eee6",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Dark Surge", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Poison Kiss", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Impostor", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Portal / Chaos Wisdom",
+        "id": "5bb6-75a7-7ada-0b9a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1e87-11eb-0f55-304c", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "5532-5bc5-789d-1fd5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "9fcd-be42-2555-88a8",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "de50-de2d-52ff-537b",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Portal", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Chaos Wisdom", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Impostor", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gathering / Mesmerizing",
+        "id": "ae92-b030-eee0-cd25",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "ad6b-0e5f-0be3-c22f", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "794b-60e2-19b9-633f",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "9fcd-be42-2555-88a8",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "74da-7631-426c-afff",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Gathering", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Mesmerizing", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Impostor", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Tide / Doom",
+        "id": "0bf5-a890-5656-ebd8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "6451-73c6-c407-15f7", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enhancement", "id": "1ed1-17d1-6c93-2aac", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "2433-2b80-142e-4502",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "8ec5-3895-9783-631f",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "e423-61c6-60c7-ab3f",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Dark Tide", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Doom", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Void Specter", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gathering / Black Mark",
+        "id": "9c21-da65-0fd7-89dd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a90e-5d38-c6c7-4def", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "dc54-20ac-a287-0b1c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "8ec5-3895-9783-631f",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "bfd0-d24e-5093-4224",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Gathering", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Black Mark", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Void Specter", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Portal / Nightmare",
+        "id": "2b7d-ad81-3a30-6277",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "12b6-3ae2-a57a-458f", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "1671-dd0f-ab16-dbf5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "8ec5-3895-9783-631f",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "fdac-025b-8e3f-c154",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Portal", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Nightmare", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Void Specter", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

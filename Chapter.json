@@ -1,0 +1,1491 @@
+{
+  "catalogue": {
+    "name": "Chapter",
+    "id": "556b-8b8a-3c6c-e7d3",
+    "authorContact": "blackfire@lion-productions.com",
+    "authorName": "Tamas \"Blackfire\" Mate",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "ec55-9fdc-cdc9-5247",
+    "gameSystemRevision": 2,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Angel of Death",
+        "id": "508e-e3af-ae5f-7cdf",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "7691-38ab-a115-d7ce",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Holy Knight",
+        "id": "7f50-c634-0367-46e7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "032f-fa6a-97ae-1fa7",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Holy Riders",
+        "id": "7662-fceb-36c8-9825",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "28d4-b15b-85cf-b3d8",
+        "type": "selectionEntry",
+        "selectionEntryGroups": [
+          {
+            "name": "Deployment",
+            "id": "7611-5645-7fe7-1e71",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntries": [
+              {
+                "name": "Haste / Gallop",
+                "id": "c24f-5b2f-208f-b4ae",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "categoryLinks": [
+                  {"name": "Deployment", "id": "7048-96e3-57fb-0a3f", "hidden": false, "primary": false, "targetId": "ae92-56d7-4374-8b57"},
+                  {"name": "Enhancement", "id": "c3b1-217a-b3d9-0cd3", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+                ],
+                "constraints": [
+                  {
+                    "id": "02a5-62ba-6b11-a006",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "eedd-9579-70cd-2b3b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Deployment  Enhancement",
+                    "id": "6a1e-3831-0a88-8526",
+                    "hidden": false,
+                    "typeId": "c7fb-3192-ca76-8d92",
+                    "typeName": "Action",
+                    "characteristics": [
+                      {"name": "Top Action", "$text": "Haste", "typeId": "c646-7cd4-ba2f-267c"},
+                      {"name": "Bottom Action", "$text": "Gallop", "typeId": "3c5c-4360-dcf5-6087"},
+                      {"name": "Squad", "$text": "Holy Riders", "typeId": "c352-2911-cb6a-f6cb"},
+                      {"name": "Card count", "$text": "1", "typeId": "061e-3320-8c3a-c2be"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Reinforcements / Winged Charge",
+                "id": "de83-5baf-8b37-1294",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "categoryLinks": [{"name": "New CategoryLink", "id": "1d9d-9c75-38fe-43db", "hidden": false, "primary": false, "targetId": "ae92-56d7-4374-8b57"}],
+                "constraints": [
+                  {
+                    "id": "5998-b148-3f34-6ad0",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "2edf-6416-292b-d0a6",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Deployment Action",
+                    "id": "8324-efe1-e677-0dcc",
+                    "hidden": false,
+                    "typeId": "c7fb-3192-ca76-8d92",
+                    "typeName": "Action",
+                    "characteristics": [
+                      {"name": "Top Action", "$text": "Reinforcements", "typeId": "c646-7cd4-ba2f-267c"},
+                      {"name": "Bottom Action", "$text": "Winged Charge", "typeId": "3c5c-4360-dcf5-6087"},
+                      {"name": "Squad", "$text": "Holy Riders", "typeId": "c352-2911-cb6a-f6cb"},
+                      {"name": "Card count", "$text": "1", "typeId": "061e-3320-8c3a-c2be"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pilgrim",
+        "id": "9830-f1d4-75cf-1f8a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8657-d228-7064-260a",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Purge Doctor",
+        "id": "7ae1-5f88-91df-2891",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c22d-aab1-9061-0efd",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Ranger",
+        "id": "5e9c-1fd6-b20c-6d4d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "cc4f-633f-f524-ad49",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Sanctuary",
+        "id": "e9d3-e3c6-8631-51d0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0a05-c702-a0a7-5e98",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Frontline Chapel",
+        "id": "9685-12bd-2102-1537",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "fc46-b576-2e3a-1515",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Chapter Banner",
+        "id": "9583-6e24-08f9-08e0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "9ab9-9d4a-3aa9-b924",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Alternative Chapter Banner",
+        "id": "361a-ab56-0ec7-0d07",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "be35-556b-320c-3709",
+        "type": "selectionEntry"
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Combat / Storm of Blades",
+        "id": "fdb5-639c-1bdb-70e4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "5f78-9af5-e819-18ea", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "578d-a4d4-1dbf-be8a", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"}
+        ],
+        "constraints": [
+          {
+            "id": "2d9f-88ed-4980-0a39",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 5
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "7691-38ab-a115-d7ce",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "9009-89c8-b58d-b14b",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Combat", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Storm of Blades", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Angel of Death", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "5", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Defense / Guardian Angel",
+        "id": "14af-e1d5-1c09-1ffa",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "7575-687c-1345-37a4", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "4a2b-7142-97af-f8a6", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"}
+        ],
+        "constraints": [
+          {
+            "id": "6214-2b08-096c-7e80",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "7691-38ab-a115-d7ce",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "cf5a-ede0-d003-ee43",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Defense", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Guardian Angel", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Angel of Death", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Move and Combat / Winged Death",
+        "id": "7353-056d-0ca8-9963",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "189f-1313-6aa6-8958", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "bb39-38c8-1a7e-d232", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enchantment", "id": "67e0-d726-a8b7-b77d", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "54d5-8761-6ff5-1898",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "7691-38ab-a115-d7ce",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "4e29-971e-5550-d44c",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Move And Combat", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Winged Death", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Angel of Death", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Combat / Judgment",
+        "id": "ba0d-6012-3dcd-d690",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "32d7-051e-37ab-037c", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "812a-fc3b-06d8-a62a", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enchantment", "id": "5ee4-7d54-f061-59b5", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "7587-7893-2955-08d2",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "7691-38ab-a115-d7ce",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "5dee-8696-085e-c579",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Combat", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Judgment", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Angel of Death", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Charging / Energy Drain",
+        "id": "6b4f-1e7a-cddb-b8a7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "e07d-11ef-339a-ceaf", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "229d-0b60-3051-f54a", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"}
+        ],
+        "constraints": [
+          {
+            "id": "887b-0d0c-af1f-0594",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "8657-d228-7064-260a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "bca8-e0df-f1d2-4007",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Charging", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Energy Drain", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Pilgrim", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Charging / Purging",
+        "id": "bfda-cbaa-f4fa-4994",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "c3ff-7bee-e282-bb3c", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "a753-d74d-0097-31ab", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"}
+        ],
+        "constraints": [
+          {
+            "id": "71cc-d34b-a465-f0df",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "c22d-aab1-9061-0efd",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "31b4-95c4-69a0-9f53",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Charging", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Purging", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Purge Doctor", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Charging / Trap",
+        "id": "2145-7c44-03f8-1f2a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "7bac-0d14-0cdb-7c10", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "07d0-f43d-1495-c581", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"}
+        ],
+        "constraints": [
+          {
+            "id": "38f6-68c7-293b-7e91",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "0ce1-3f34-fd1f-4aa8",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Charging", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Trap", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Any", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "3", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Combat / Dying Breath",
+        "id": "01b9-be45-8d69-03d6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "0d2c-0149-a041-7e5e", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "f20f-f9ba-f51c-d7cf", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"}
+        ],
+        "constraints": [
+          {
+            "id": "bc19-0e9f-f54b-c700",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "28d4-b15b-85cf-b3d8",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "103b-fb8d-b379-cbd4",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Combat", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Dying Breath", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Holy Riders", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "3", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Combat / Overwatch",
+        "id": "baf1-7e32-7612-f3cb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "ccd2-1e9d-73b0-d5ca", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "c7f2-ac05-c1ce-0c5d", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enchantment", "id": "a8b3-cacb-fca3-92cc", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "9527-93f0-a66a-45d2",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "9e69-ffd7-abd2-423e",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Combat", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Overwatch", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Any", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Combat / Tactic",
+        "id": "f085-af32-fe2d-3930",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "a0ac-1143-46ee-d7a6", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "685d-5abf-3eff-40bb", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enchantment", "id": "69ca-feab-e89f-fb21", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "cd58-1c42-8713-92c7",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "c095-0801-8089-3774",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Combat", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Tactic", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Any", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Move / Formation",
+        "id": "e6bc-cce9-204b-57b4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "8905-4d6e-8db0-f7e1", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "bf01-03a0-2c61-3a0e", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"}
+        ],
+        "constraints": [
+          {
+            "id": "38dc-cfcf-e208-74c3",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "032f-fa6a-97ae-1fa7",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "24f7-190c-71e9-0737",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Move", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Formation", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Holy Knight", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Defense / Charged Shot",
+        "id": "64e0-29b5-4096-6302",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "3332-bb8e-dd09-1f8e", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "71ab-d439-7d60-fbd1", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enchantment", "id": "04ce-ae54-4c0b-bcf6", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "b972-9ea3-fa33-1918",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "c22d-aab1-9061-0efd",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "e13d-3a48-5a7b-9ff9",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Defense", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Charged Shot", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Purge Doctor", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Defense / Firing Position",
+        "id": "02ce-5df4-6a02-583b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "26cb-4500-b8d6-731f", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "01c3-3c42-6ce5-77c6", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enchantment", "id": "a216-92e5-0285-5b49", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "ba7d-a204-a2e8-dad1",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "cc4f-633f-f524-ad49",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "d35a-e7c9-a201-a084",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Defense", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Firing Position", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Ranger", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Defense / Shield Wall",
+        "id": "302a-3ef3-319e-0fe5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "87f4-cf45-e941-9aa5", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "b412-d7ca-4847-fe53", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"}
+        ],
+        "constraints": [
+          {
+            "id": "b213-bbdf-4468-dc0a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "032f-fa6a-97ae-1fa7",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "1988-a4a1-6beb-cd5b",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Defense", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Shield Wall", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Holy Knight", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dodge / Leap",
+        "id": "58cd-dbc0-c850-dde3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "650c-e1c7-04f2-8c80", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "4aa5-de62-be57-b1e7", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"}
+        ],
+        "constraints": [
+          {
+            "id": "263f-6cdd-dc56-95a1",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 5
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "032f-fa6a-97ae-1fa7",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "913e-8b5f-85a2-47a1",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Dodge", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Leap", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Holy Knight", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "5", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dodge / Shoot",
+        "id": "7ea8-1b50-c191-dfe2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "8589-d56b-f0ca-a371", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "e70d-c52d-08f0-bde1", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"}
+        ],
+        "constraints": [
+          {
+            "id": "bd33-5ec4-1724-ae93",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 8
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "cc4f-633f-f524-ad49",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "949a-ab1a-2629-ecfa",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Dodge", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Shoot", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Ranger", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "8", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Inspire / Trample",
+        "id": "cefe-6671-11d6-4f46",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "53a0-273d-ad37-93ce", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "fd7a-7fd5-de40-04f7", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"}
+        ],
+        "constraints": [
+          {
+            "id": "8bab-92da-e4fb-26a4",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "28d4-b15b-85cf-b3d8",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "b728-8388-ec59-d74b",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Inspire", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Trample", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Holy Riders", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "3", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Move / Bash",
+        "id": "e0ae-d479-68cd-ba19",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "1389-dada-348e-b977", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "95cb-5534-6fcd-a9c2", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"}
+        ],
+        "constraints": [
+          {
+            "id": "23da-fb97-c2bb-b105",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "032f-fa6a-97ae-1fa7",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "1ab6-6c3f-7c1a-678f",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Move", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Bash", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Holy Knight", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Move / Power of Technology",
+        "id": "9c05-95cf-a181-f06f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "4b0d-61a3-4379-6830", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "db3f-7865-8dc3-c1b7", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"}
+        ],
+        "constraints": [
+          {
+            "id": "bdf0-5acf-eedc-7338",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "c22d-aab1-9061-0efd",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "7aa8-3190-6a4e-8c0f",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Move", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Power of Technology", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Purge Doctor", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Revenge / Last Man Standing",
+        "id": "94cd-b65e-d23a-8163",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "273b-2b88-a9bb-7746", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "7f4d-08ab-0690-4fae", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enchantment", "id": "0fa2-3e3f-cbd2-3714", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"},
+          {"name": "Enchantment", "id": "700e-c23f-f276-eab6", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "6acf-18e9-c8f5-6147",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "8657-d228-7064-260a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "db5c-81cb-f205-c163",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Revenge", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Last Man Standing", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Pilgrim", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Successful Defense / Guard",
+        "id": "ba80-6ea8-5c57-b07e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "d808-bb3a-4876-aa77", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "97fc-2800-bfc1-ee5b", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enchantment", "id": "ca40-b471-57e6-23fd", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"},
+          {"name": "Enchantment", "id": "a4c7-64b5-d4c1-fb28", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "cdb1-fcc0-cd2f-c855",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "032f-fa6a-97ae-1fa7",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "9ffd-4a99-0a80-1e68",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Successful Defense", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Guard", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Holy Knight", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Worthless / Fake Death",
+        "id": "2f7b-deca-7cd7-c818",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Action", "id": "ec27-8ad5-c4cf-6b86", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "New CategoryLink", "id": "252c-d6ef-ffcb-360b", "hidden": false, "primary": false, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enchantment", "id": "228a-b544-7187-a911", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"},
+          {"name": "Enchantment", "id": "2a97-aaa5-4805-da78", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "a46a-8762-fbd2-d6fd",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "8657-d228-7064-260a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "922f-c167-8fc4-449a",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Worthless", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Fake Death", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Pilgrim", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1483 @@
+{
+  "catalogue": {
+    "name": "Faceless",
+    "id": "3039-3e4c-8410-6780",
+    "authorContact": "blackfire@lion-productions.com",
+    "authorName": "Tamas \"Blackfire\" Mate",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "ec55-9fdc-cdc9-5247",
+    "gameSystemRevision": 2,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Alternative Faceless Banner",
+        "id": "d2a4-83fd-9a7d-0ed5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "21c0-ec05-d5da-8a5c",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Faceless Banner",
+        "id": "6b08-072b-e641-c4ac",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "552a-a088-a76e-2681",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Incubation Chamber",
+        "id": "2f6a-213c-0b73-f003",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "fb09-6a19-a599-38c2",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Hatchery",
+        "id": "9a95-3092-2dbb-a056",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "616c-958a-b1d7-c524",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Anathema",
+        "id": "a8dd-ae98-c6ca-b38d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "85c1-cf79-d293-b1a7",
+        "type": "selectionEntry",
+        "selectionEntryGroups": [
+          {
+            "name": "Deployment",
+            "id": "2089-ef67-bf99-c5d7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntries": [
+              {
+                "name": "Rapid Mutation / Abomination",
+                "id": "23b5-f7ba-a91e-49bf",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "categoryLinks": [
+                  {"name": "Deployment", "id": "384a-6b09-b832-963e", "hidden": false, "primary": false, "targetId": "ae92-56d7-4374-8b57"},
+                  {"name": "Enhancement", "id": "b554-eafc-c9d6-f268", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+                ],
+                "constraints": [
+                  {
+                    "id": "87f7-d39c-5cff-88fa",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "c8e1-95d5-671e-cc05",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Deployment  Enhancement",
+                    "id": "b0a6-8237-e255-8db6",
+                    "hidden": false,
+                    "typeId": "c7fb-3192-ca76-8d92",
+                    "typeName": "Action",
+                    "characteristics": [
+                      {"name": "Top Action", "$text": "Rapid Mutation", "typeId": "c646-7cd4-ba2f-267c"},
+                      {"name": "Bottom Action", "$text": "Abomination", "typeId": "3c5c-4360-dcf5-6087"},
+                      {"name": "Squad", "$text": "Anathema", "typeId": "c352-2911-cb6a-f6cb"},
+                      {"name": "Card count", "$text": "1", "typeId": "061e-3320-8c3a-c2be"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Phototaxis / Chrysalis",
+                "id": "9c9a-67ab-0233-e9fd",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "categoryLinks": [{"name": "Deployment", "id": "051a-b3e2-8202-2eb7", "hidden": false, "primary": false, "targetId": "ae92-56d7-4374-8b57"}],
+                "constraints": [
+                  {
+                    "id": "0864-ca56-610f-a423",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "4756-256f-d58e-0efe",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Deployment  Action",
+                    "id": "3643-3206-9f1a-d334",
+                    "hidden": false,
+                    "typeId": "c7fb-3192-ca76-8d92",
+                    "typeName": "Action",
+                    "characteristics": [
+                      {"name": "Top Action", "$text": "Phototaxis", "typeId": "c646-7cd4-ba2f-267c"},
+                      {"name": "Bottom Action", "$text": "Chrysalis", "typeId": "3c5c-4360-dcf5-6087"},
+                      {"name": "Squad", "$text": "Anathema", "typeId": "c352-2911-cb6a-f6cb"},
+                      {"name": "Card count", "$text": "1", "typeId": "061e-3320-8c3a-c2be"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Berserker",
+        "id": "3787-35a7-514c-fcbb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "af30-66ea-a266-c2a4",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Shatterer",
+        "id": "d60b-3874-2f5b-9ef7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "2067-cfdd-225c-359a",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Harvester",
+        "id": "cd3f-0d54-e180-bcba",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "750d-f093-3f2b-655c",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Bladebreeder",
+        "id": "8649-0dc9-1089-cf53",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e53b-e8a7-4562-e6e3",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Fleshripper",
+        "id": "1567-19f8-b3c1-6a0c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b554-56b1-6ea3-b776",
+        "type": "selectionEntry"
+      }
+    ],
+    "profileTypes": [{"name": "Evolved Squad Action", "id": "8fae-8622-9e83-2850", "characteristicTypes": [{"name": "Card count", "id": "577b-6c9d-df2a-bf1f"}]}],
+    "selectionEntries": [
+      {
+        "name": "Autophagy / Tentacles",
+        "id": "7dc2-9680-3762-5ca9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "529c-3bc2-4b5d-3d02", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "c1d5-b56a-1db3-2645",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "85c1-cf79-d293-b1a7",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "e3ad-02cd-6089-6b98",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Autophagy", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Tentacles", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Anathema", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "3", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Reroll / Whack",
+        "id": "f24e-b268-2422-3b1d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "b359-61f8-d015-9d50", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "4cab-4ae5-34a4-3791",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "85c1-cf79-d293-b1a7",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "4e3b-83b3-5366-88ad",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Reroll", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Whack", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Anathema", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "3", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fleshripper (Evolved)",
+        "id": "09e8-66cb-4ea3-44fa",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "b91a-21c6-fb38-2234", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Squad", "id": "f091-0bf8-e91b-13f6", "hidden": false, "primary": false, "targetId": "9337-2409-058d-6fe4"}
+        ],
+        "constraints": [
+          {
+            "id": "dbc4-ad4b-4460-6985",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "b554-56b1-6ea3-b776",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Evolved",
+            "id": "b327-ae8d-3174-2f75",
+            "hidden": false,
+            "typeId": "8fae-8622-9e83-2850",
+            "typeName": "Evolved Squad Action",
+            "characteristics": [{"name": "Card count", "$text": "2", "typeId": "577b-6c9d-df2a-bf1f"}]
+          }
+        ]
+      },
+      {
+        "name": "Move / Hell",
+        "id": "6126-c6df-8520-834a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "ee0f-1388-f26c-10f4", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "30da-5485-94fd-1758",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 5
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "609f-a067-93ef-5d90",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Move", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Hell", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Any", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "5", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Autophagy / Swarm",
+        "id": "5513-f206-c90a-3173",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "3480-7d7d-c4f9-5b2a", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "d89c-b203-c128-1a50",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 6
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "c2d8-1557-66b3-e02d",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Autophagy", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Swarm", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Any", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "6", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Move / Power",
+        "id": "ddbd-7d9e-6e38-c74d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "9833-6ad4-fb48-6bff", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "0df5-4b33-ebf4-5959",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "b554-56b1-6ea3-b776",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "5827-5f88-6394-c671",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Move", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Power", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Fleshripper", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Reroll / Resource",
+        "id": "4828-f190-3546-48f4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "8b90-947e-42f2-1db7", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "b468-5e0d-3728-3cb9",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "b554-56b1-6ea3-b776",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "f767-8f76-66f0-503a",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Reroll", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Resource", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Fleshripper", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Berserker (Evolved)",
+        "id": "5835-2788-2485-91bd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "94b0-1ca4-a4de-c648", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Squad", "id": "f971-aed6-09c3-3344", "hidden": false, "primary": false, "targetId": "9337-2409-058d-6fe4"}
+        ],
+        "constraints": [
+          {
+            "id": "1efe-0be7-3202-35dd",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "af30-66ea-a266-c2a4",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Evolved",
+            "id": "2736-bc9b-130d-59fa",
+            "hidden": false,
+            "typeId": "8fae-8622-9e83-2850",
+            "typeName": "Evolved Squad Action",
+            "characteristics": [{"name": "Card count", "$text": "4", "typeId": "577b-6c9d-df2a-bf1f"}]
+          }
+        ]
+      },
+      {
+        "name": "Move / Back to Source",
+        "id": "7659-73f7-8b52-0bda",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "86ea-ec31-c9c3-e9fb", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "cdcf-eabd-d99e-16e8",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "af30-66ea-a266-c2a4",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "7b1e-9a99-69f0-c24d",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Move", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Back to Source", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Berserker", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Combat / Chosen Victim",
+        "id": "ff6a-4991-c7a5-d019",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "8239-c39f-aaa3-1cf4", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "dad6-b538-cad9-b0a6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 5
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "af30-66ea-a266-c2a4",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "c14a-d555-bbdc-9829",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Combat", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Chosen Victim", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Berserker", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "5", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bladebreeder (Evolved)",
+        "id": "6384-0055-c2c7-7ece",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "d574-5808-9239-949b", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Squad", "id": "00fd-a914-5a4a-62e0", "hidden": false, "primary": false, "targetId": "9337-2409-058d-6fe4"}
+        ],
+        "constraints": [
+          {
+            "id": "9328-5283-eaa2-17ea",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "e53b-e8a7-4562-e6e3",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Evolved",
+            "id": "4dcf-fd25-7f8a-82c0",
+            "hidden": false,
+            "typeId": "8fae-8622-9e83-2850",
+            "typeName": "Evolved Squad Action",
+            "characteristics": [{"name": "Card count", "$text": "2", "typeId": "577b-6c9d-df2a-bf1f"}]
+          }
+        ]
+      },
+      {
+        "name": "Regeneration / Bladespit",
+        "id": "205f-1576-9459-29ef",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "62b5-cc84-54b1-f68b", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "e870-1683-2a2e-aff8",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "e53b-e8a7-4562-e6e3",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "2ecc-1dd2-491c-7229",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Regeneration", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Bladespit", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Bladebreeder", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Combat / Lurch",
+        "id": "5284-5f81-e046-cdb8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "38a6-ac81-d9ca-28d9", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "f6d8-84c7-6d3c-ecd6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "e53b-e8a7-4562-e6e3",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "feef-3f99-4352-ce74",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Combat", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Lurch", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Bladebreeder", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Harvester (Evolved)",
+        "id": "63f1-692a-92fb-af9b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "a5b6-c2d7-9c44-b544", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Squad", "id": "e4b8-fcfb-ee68-9918", "hidden": false, "primary": false, "targetId": "9337-2409-058d-6fe4"}
+        ],
+        "constraints": [
+          {
+            "id": "f2c5-888e-e893-dac9",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "750d-f093-3f2b-655c",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Evolved",
+            "id": "0cab-a1ae-40f0-7950",
+            "hidden": false,
+            "typeId": "8fae-8622-9e83-2850",
+            "typeName": "Evolved Squad Action",
+            "characteristics": [{"name": "Card count", "$text": "2", "typeId": "577b-6c9d-df2a-bf1f"}]
+          }
+        ]
+      },
+      {
+        "name": "Autophagy / Breeding",
+        "id": "999f-2ea8-176a-6b49",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "c054-ce69-1aa5-3d67", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enhancement", "id": "5982-6312-a537-830a", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "5bba-9495-fc04-d485",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "750d-f093-3f2b-655c",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "9e47-12e0-b019-9946",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Autophagy", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Breeding", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Harvester", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Move / Absorption",
+        "id": "ca03-7526-0c09-94b9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "d1d1-2d83-d615-7f3f", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "34ec-ef3f-b825-992a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "750d-f093-3f2b-655c",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "2596-55a6-a4d3-cc21",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Move", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Absorption", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Harvester", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Combat / Osmosis",
+        "id": "382f-86f7-baf0-174c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "25da-35d8-b97f-ed78", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "a19b-b92d-b3f3-4cb9",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "750d-f093-3f2b-655c",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "d40e-d225-0dad-9636",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Combat", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Osmosis", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Harvester", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Shatterer (Evolved Ascended)",
+        "id": "fb81-f465-390f-6588",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "7416-d81e-1721-0fff", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Squad", "id": "4dd6-0021-cf7b-bfa8", "hidden": false, "primary": false, "targetId": "9337-2409-058d-6fe4"}
+        ],
+        "constraints": [
+          {
+            "id": "e337-0d95-9b6d-a9fb",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2067-cfdd-225c-359a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Evolved",
+            "id": "078c-d1ac-f520-f799",
+            "hidden": false,
+            "typeId": "8fae-8622-9e83-2850",
+            "typeName": "Evolved Squad Action",
+            "characteristics": [{"name": "Card count", "$text": "2", "typeId": "577b-6c9d-df2a-bf1f"}]
+          }
+        ]
+      },
+      {
+        "name": "Shatterer (Evolved Assimilated)",
+        "id": "4c31-5cb5-9cf0-afa2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "84c7-4d47-597d-4322", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Squad", "id": "c5cf-9f16-fb69-3450", "hidden": false, "primary": false, "targetId": "9337-2409-058d-6fe4"}
+        ],
+        "constraints": [
+          {
+            "id": "3523-2a69-aba6-9b47",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2067-cfdd-225c-359a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Evolved",
+            "id": "ff67-fda0-6fe0-1989",
+            "hidden": false,
+            "typeId": "8fae-8622-9e83-2850",
+            "typeName": "Evolved Squad Action",
+            "characteristics": [{"name": "Card count", "$text": "2", "typeId": "577b-6c9d-df2a-bf1f"}]
+          }
+        ]
+      },
+      {
+        "name": "Shatterer (Evolved Defensive)",
+        "id": "d97c-5f5c-502a-8b98",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "af37-ad78-0757-2e0b", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Squad", "id": "276d-9bad-ac18-1347", "hidden": false, "primary": false, "targetId": "9337-2409-058d-6fe4"}
+        ],
+        "constraints": [
+          {
+            "id": "c311-93ac-2793-4dce",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2067-cfdd-225c-359a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Evolved",
+            "id": "a844-5da4-1ce6-dca0",
+            "hidden": false,
+            "typeId": "8fae-8622-9e83-2850",
+            "typeName": "Evolved Squad Action",
+            "characteristics": [{"name": "Card count", "$text": "2", "typeId": "577b-6c9d-df2a-bf1f"}]
+          }
+        ]
+      },
+      {
+        "name": "Combat / Impale",
+        "id": "60a1-f21b-886f-e253",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "b3e7-e4a1-7209-32d5", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enhancement", "id": "72fb-360e-cf65-0e7b", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "9f1b-46e8-fedd-2975",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2067-cfdd-225c-359a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "3424-4419-ab2e-8542",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Combat", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Impale", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Shatterer", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Combat / Carving for Life",
+        "id": "357e-7043-5027-5eb6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "ebf8-3922-829b-bb82", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "376e-326c-7713-7808",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2067-cfdd-225c-359a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "37b2-7212-d8af-54f8",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Combat", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Carving for Life", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Shatterer", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Autophagy / Unstoppable",
+        "id": "c1e1-6e37-ae7f-ce92",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "439a-db82-4830-6835", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "7178-92b6-ff6d-fdaa",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2067-cfdd-225c-359a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "d2c4-d6bc-45ff-d29d",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Autophagy", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Unstoppable", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Shatterer", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

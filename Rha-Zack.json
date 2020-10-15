@@ -1,0 +1,1434 @@
+{
+  "catalogue": {
+    "name": "Rha-Zack",
+    "id": "0708-55e3-5a20-0c89",
+    "authorContact": "blackfire@lion-productions.com",
+    "authorName": "Tamas \"Blackfire\" Mate",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "ec55-9fdc-cdc9-5247",
+    "gameSystemRevision": 2,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Rha-Zack Banner",
+        "id": "2c36-b5f8-43f2-c788",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "6a39-c080-d890-64dd",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Rha-Zack Alternative Banner",
+        "id": "ec1e-9a02-f5b1-4051",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "3609-53be-80c4-921c",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Voltaic Capacitor",
+        "id": "26c0-e558-bb9e-e379",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0b2e-d015-91a3-6fbe",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Energy Cloud",
+        "id": "fbe0-c39e-0329-3ee1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "6b8e-5816-6e13-57aa",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Jumpsuit",
+        "id": "65e1-a117-e46d-9ab2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "fb5d-ec78-3179-af5a",
+        "type": "selectionEntry",
+        "selectionEntryGroups": [
+          {
+            "name": "Deployment",
+            "id": "2662-4dd6-1347-f664",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntries": [
+              {
+                "name": "Temporary Setback / Lightning Strike",
+                "id": "ae6a-dc11-67ab-b826",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "categoryLinks": [
+                  {"name": "Deployment", "id": "3d99-d12d-8907-bae8", "hidden": false, "primary": false, "targetId": "ae92-56d7-4374-8b57"},
+                  {"name": "Enhancement", "id": "286b-5ffc-2148-0c48", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+                ],
+                "constraints": [
+                  {
+                    "id": "e7f7-f25a-608c-58f7",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "134d-6b88-363a-d61f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Deployment  Enhancement",
+                    "id": "d215-2ae1-13b6-31ee",
+                    "hidden": false,
+                    "typeId": "c7fb-3192-ca76-8d92",
+                    "typeName": "Action",
+                    "characteristics": [
+                      {"name": "Top Action", "$text": "Temporary Setback", "typeId": "c646-7cd4-ba2f-267c"},
+                      {"name": "Bottom Action", "$text": "Lightning Strike", "typeId": "3c5c-4360-dcf5-6087"},
+                      {"name": "Squad", "$text": "Jumpsuit", "typeId": "c352-2911-cb6a-f6cb"},
+                      {"name": "Card count", "$text": "1", "typeId": "061e-3320-8c3a-c2be"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Descend / From the Skies",
+                "id": "6a33-df4a-dc39-17fd",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "categoryLinks": [{"name": "New CategoryLink", "id": "635c-d014-cdd2-0b72", "hidden": false, "primary": false, "targetId": "ae92-56d7-4374-8b57"}],
+                "constraints": [
+                  {
+                    "id": "9b75-1d64-8f05-0cf4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "7c23-d01a-1770-4d90",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Deployment  Action",
+                    "id": "8f76-c317-d8ef-cb19",
+                    "hidden": false,
+                    "typeId": "c7fb-3192-ca76-8d92",
+                    "typeName": "Action",
+                    "characteristics": [
+                      {"name": "Top Action", "$text": "Descend", "typeId": "c646-7cd4-ba2f-267c"},
+                      {"name": "Bottom Action", "$text": "From the Skies", "typeId": "3c5c-4360-dcf5-6087"},
+                      {"name": "Squad", "$text": "Jumpsuit", "typeId": "c352-2911-cb6a-f6cb"},
+                      {"name": "Card count", "$text": "1", "typeId": "061e-3320-8c3a-c2be"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Source Blade",
+        "id": "e41a-0a63-f704-0da7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "449c-443c-6a52-cadf",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Stream Guard",
+        "id": "956b-3781-65d5-712e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8e06-f08b-c7a8-8345",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Stream Surfer",
+        "id": "6083-4caf-7e28-edc9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8cbf-47c2-f467-0ed1",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Storm Bringer",
+        "id": "a07e-a935-98b7-e8bd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "283b-729c-1da3-b6ea",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Infinity Angel",
+        "id": "c73b-023a-4435-8ce7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "160e-c720-ec8a-9e5d",
+        "type": "selectionEntry"
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Energy Cloud / Barrier",
+        "id": "d0a5-2db8-406b-2381",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "fbbd-da77-b4f0-5c43", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "cb57-2bc7-3b6d-348d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "fb5d-ec78-3179-af5a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "33fc-5e48-0398-ba3c",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Energy Cloud", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Barrier", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Jumpsuit", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "3", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Charge / Gavitron Punch",
+        "id": "0bd7-1f0e-ccd6-b228",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "f330-7f87-4a15-78ca", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "9ed4-1e0f-4667-7776",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "fb5d-ec78-3179-af5a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "576b-c50b-818a-bc1a",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Charge", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Gavitron Punch", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Jumpsuit", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "3", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Enhanced Vision / Drill",
+        "id": "6f6c-85b7-5c53-8145",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "6a9b-bce2-6445-89a2", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enhancement", "id": "6eeb-bd9c-ef49-6791", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "a73f-a07e-4c17-5ffc",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "dcc8-78ad-018e-9c7f",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Enhanced Vision", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Drill", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Any", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "3", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Refresh Crystal / Glide",
+        "id": "59ad-424e-cf7d-f0e9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "07b1-1575-d13c-d87f", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enhancement", "id": "1820-54d1-3293-3891", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "87fb-8132-7c07-e578",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "f6ca-c10c-bf8a-13ba",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Refresh Crystal", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Glide", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Any", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Backstab / Self-Repair",
+        "id": "3bb6-2d76-dfe2-76df",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "d88f-e6d8-5f09-e5c3", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enhancement", "id": "6bac-9c25-f65b-af1b", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "f188-c872-41ad-b532",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "493a-ad00-feb6-99d8",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Backstab", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Self-Repair", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Any", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Source / Quickening",
+        "id": "7310-eb5e-a48a-dbe3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "ef6b-6d0b-7074-a968", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enhancement", "id": "4c62-fec3-a772-cf5f", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "b162-cec1-05fc-fa30",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "8a15-f01f-4f4e-9e96",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Source", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Quickening", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Any", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Move / Minelayer",
+        "id": "cc1a-538c-5258-4d4c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "26bc-7a2c-f28c-6b8e", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "164c-85e2-8763-07f8",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "6e02-f218-796f-74c2",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Move", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Minelayer", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Any", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Common Self / Time Jump",
+        "id": "0383-57d1-af40-b574",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1895-de20-5e20-35e7", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "9475-3206-a9e0-999c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "b15f-8de0-a419-86a7",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Common Self", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Time Jump", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Any", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "3", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Harvest / Energy Shields",
+        "id": "4e55-9a9f-cd3e-d2a8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "076f-10bd-a1b1-0a2c", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enhancement", "id": "1ba6-ed1f-2982-5b76", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "15dd-1dcf-16f8-c090",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "160e-c720-ec8a-9e5d",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "0f3b-4510-fa40-136a",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Harvest", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Energy Shields", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Infinity Angel", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Focus / Laser Whip",
+        "id": "261c-55fe-171e-9efc",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "2406-04fc-2368-f7e1", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enhancement", "id": "604b-1ccb-94c7-8e9b", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "457f-e12c-425a-747d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "160e-c720-ec8a-9e5d",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "d4c6-31ea-720e-4142",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Focus", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Laser Whip", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Infinity Angel", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Backstab / Energy Beam",
+        "id": "ac08-db37-76c2-b60f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "49b4-5214-088e-750e", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "a8f5-6532-584d-67b4",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "160e-c720-ec8a-9e5d",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "f976-2ffc-81fc-d0a1",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Backstab", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Energy Beam", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Infinity Angel", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "3", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Energy Cloud / Order",
+        "id": "57a0-da03-40c5-0ec1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "fecf-1ddb-ef85-e80b", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "8890-f6e0-0870-f16d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "160e-c720-ec8a-9e5d",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "e288-9625-739d-e057",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Energy Cloud", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Order", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Infinity Angel", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Reroll / Power Swords",
+        "id": "f590-10b9-8af3-dd38",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "1ac3-d3d2-9541-c1ae", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enhancement", "id": "ddae-ca09-171e-c4bc", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "7611-6ecf-5796-0df6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "8e06-f08b-c7a8-8345",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "f522-f051-f347-7d4c",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Reroll", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Power Swords", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Stream Guard", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Move / Jump",
+        "id": "39d1-0661-6561-be97",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "362e-ddbb-4abf-608a", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "1500-9669-c6fc-4cfc",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "8e06-f08b-c7a8-8345",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "448e-9fbe-fb4c-dce6",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Move", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Jump", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Stream Guard", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Energy Cloud / Shoot",
+        "id": "106e-27d0-ce68-6ca1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "4753-4071-5df8-0ef4", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "46d2-75b7-44b6-c2a8",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 5
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "8e06-f08b-c7a8-8345",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "5a40-e503-ad72-4ef8",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Energy Cloud", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Shoot", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Stream Guard", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "5", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Common Self / Lightning",
+        "id": "e7b8-49a7-e419-a134",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "93e4-6af5-7374-9e60", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "315a-6a6c-ba37-348e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "283b-729c-1da3-b6ea",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "6801-8399-58f4-e8d1",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Common Self", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Lightning", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Storm Bringer", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Energy Cloud / Ray",
+        "id": "a289-9239-1a10-f963",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "bd53-f33b-bd0d-0e44", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "dd0e-bd81-3585-b043",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 6
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "283b-729c-1da3-b6ea",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "a1c6-3bee-beb3-1a42",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Energy Cloud", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Ray", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Storm Bringer", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "6", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Charge / Shock",
+        "id": "2b56-c3d4-2c1f-2199",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "9e60-9212-f290-5f1a", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "2679-6fe5-af66-16e8",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "283b-729c-1da3-b6ea",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "1da5-b22d-7749-1ced",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Charge", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Shock", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Storm Bringer", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Move / Friction",
+        "id": "6d67-172a-29ae-5657",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "750b-64c9-68e9-67f6", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "a43e-302b-bc6b-69be",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 5
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "8cbf-47c2-f467-0ed1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "a7a6-2d28-03c5-6506",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Move", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Friction", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Stream Surfer", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "5", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Energy Cloud / Surf",
+        "id": "0f2c-247c-73b4-7ed5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "0b03-c673-f3e9-509c", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "9213-9e3e-c6ea-8a9f",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 5
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "8cbf-47c2-f467-0ed1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "a672-3068-5b42-6fef",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Energy Cloud", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Surf", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Stream Surfer", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "5", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Focus / Shadowing",
+        "id": "b983-a1d2-6c35-74dd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "15bb-31f4-0248-f282", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enhancement", "id": "ecd5-6346-4043-2ece", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "b2e1-2167-0ec8-48e5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "449c-443c-6a52-cadf",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "c55f-f9d2-568a-b283",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Focus", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Shadowing", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Source Blade", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Combat / Energy Transfer",
+        "id": "3b0c-8da9-6804-bfce",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a523-4a6b-7585-c0e3", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "84e8-efdd-82b5-fc25",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "449c-443c-6a52-cadf",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "ff1c-09e4-0cfb-c5cc",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Combat", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Energy Transfer", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Source Blade", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Foresight / Source Blade",
+        "id": "1288-4d61-23d5-e36c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "08ee-448a-39b0-984c", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "87e1-634b-b2be-3f38",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "449c-443c-6a52-cadf",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "4dec-11c0-2440-6a9b",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Foresight", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Source Blade", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Source Blade", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

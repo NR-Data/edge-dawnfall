@@ -1,0 +1,1509 @@
+{
+  "catalogue": {
+    "name": "Reborn",
+    "id": "57c0-8976-ce36-36de",
+    "authorContact": "blackfire@lion-productions.com",
+    "authorName": "Tamas \"Blackfire\" Mate",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "ec55-9fdc-cdc9-5247",
+    "gameSystemRevision": 2,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Alternative Reborn Banner",
+        "id": "4548-6e4b-12ad-df7a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "adca-9d17-97d4-16fb",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Reborn Banner",
+        "id": "7e50-20cf-f21a-e93c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0ccb-b5c1-8ace-61a8",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Thornheart Wood",
+        "id": "438b-0e91-82d7-f0d7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "3682-6030-dd87-c8ac",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Sapping Briar",
+        "id": "1e35-dfd4-e32c-6db6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a696-f546-97ff-fa30",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Warbeast",
+        "id": "daed-a839-430f-0822",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8351-8a80-1e7e-eb45",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Forest Wraith",
+        "id": "eab4-f24a-18d3-4250",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "70c6-4137-b90e-6607",
+        "type": "selectionEntry",
+        "selectionEntryGroups": [
+          {
+            "name": "Deployment",
+            "id": "314d-2c23-dce3-258d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntries": [
+              {
+                "name": "Additional Wound / Thorn Beast",
+                "id": "ec43-1ffb-aa8b-4e94",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "categoryLinks": [
+                  {"name": "Deployment", "id": "3766-a983-0815-4d55", "hidden": false, "primary": false, "targetId": "ae92-56d7-4374-8b57"},
+                  {"name": "Enhancement", "id": "7ab5-79e4-b22c-645d", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+                ],
+                "constraints": [
+                  {
+                    "id": "4bbb-4fe7-6a1c-511d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "16ed-f8da-1936-d83c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Deployment  Enhancement",
+                    "id": "bc82-0c15-1b0e-26e1",
+                    "hidden": false,
+                    "typeId": "c7fb-3192-ca76-8d92",
+                    "typeName": "Action",
+                    "characteristics": [
+                      {"name": "Top Action", "$text": "Additional Wound", "typeId": "c646-7cd4-ba2f-267c"},
+                      {"name": "Bottom Action", "$text": "Thorn Beast", "typeId": "3c5c-4360-dcf5-6087"},
+                      {"name": "Squad", "$text": "Forest Wraith", "typeId": "c352-2911-cb6a-f6cb"},
+                      {"name": "Card count", "$text": "1", "typeId": "061e-3320-8c3a-c2be"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Symbiosis / Manifestation",
+                "id": "aafd-d4c2-c334-21ed",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "categoryLinks": [{"name": "New CategoryLink", "id": "f327-fdf3-9877-a912", "hidden": false, "primary": false, "targetId": "ae92-56d7-4374-8b57"}],
+                "constraints": [
+                  {
+                    "id": "5411-45c0-49a5-91de",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "ff5c-2667-5255-f84f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Deployment  Action",
+                    "id": "33a4-4948-46e5-6e7a",
+                    "hidden": false,
+                    "typeId": "c7fb-3192-ca76-8d92",
+                    "typeName": "Action",
+                    "characteristics": [
+                      {"name": "Top Action", "$text": "Symbiosis", "typeId": "c646-7cd4-ba2f-267c"},
+                      {"name": "Bottom Action", "$text": "Manifestation", "typeId": "3c5c-4360-dcf5-6087"},
+                      {"name": "Squad", "$text": "Forest Wraith", "typeId": "c352-2911-cb6a-f6cb"},
+                      {"name": "Card count", "$text": "1", "typeId": "061e-3320-8c3a-c2be"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ancient Guard",
+        "id": "0595-2a01-cb0d-2b70",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "fca3-1094-7b0b-55e2",
+        "type": "selectionEntry"
+      },
+      {"name": "Wyrm", "id": "556a-851a-5f6f-d027", "collective": false, "hidden": false, "import": true, "targetId": "5291-e8b8-54c3-5cf7", "type": "selectionEntry"},
+      {
+        "name": "Blight Steed",
+        "id": "2539-2ec0-dead-775d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "cf75-5213-9aa2-f55c",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Treemaid",
+        "id": "6c2f-c64b-dc37-e6a5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "6bc9-a7c5-6d85-7ae2",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Oracle of Wrath",
+        "id": "b7f3-1910-cee8-2543",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1af2-d2fe-dd0a-0060",
+        "type": "selectionEntry"
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Herbs / Empowering",
+        "id": "47a6-3234-a59b-dfc5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "2089-6b7a-87c2-b395", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "2f45-8b4c-e045-8b31",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "8351-8a80-1e7e-eb45",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "6ae0-6565-7d73-17cc",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Herbs", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Empowering", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Warbeast", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Photosynthesis / Forest Elemental",
+        "id": "6e86-a75e-7ad5-77e5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "fc06-3e9b-44c2-a794", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "f21c-ebb1-09d3-18af",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "70c6-4137-b90e-6607",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "41ba-7088-6d7d-d0f9",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Photosynthesis", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Forest Elemental", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Forest Wraith", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "3", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sprout / Seed",
+        "id": "f06f-76f8-f9a5-64d6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "b6b9-0a4e-2239-b664", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "bb69-92b7-5d98-93e6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "9e6d-c3d3-e81f-94b8",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Sproud", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Seed", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Any", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Woodwalk / Crawling Jungle",
+        "id": "9ad1-455f-4372-c215",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "4a3d-3168-e60f-8f46", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "80ab-d35a-27cf-c3fe",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "4889-393f-cc30-70a6",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Woodwalk", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Crawling Jungle", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Any", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Paralysis / Overgrow",
+        "id": "2577-b07f-f0c6-6e79",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "935f-b662-4046-2565", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "ae6c-b9f4-8c8b-627a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1af2-d2fe-dd0a-0060",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "a202-c5c4-f715-47be",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Paralysis", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Overgrow", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Oracle of Wrath", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sprout / Call of the Wilds",
+        "id": "5af1-4869-3264-9243",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "dba8-e5fc-8aaf-0bee", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "2a33-d802-2492-aa4e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1af2-d2fe-dd0a-0060",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "0f7e-bd9d-83a0-0e03",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Sprout", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Call of the Wilds", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Oracle of Wrath", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sprout / Weakening",
+        "id": "43b5-c41d-09b6-cc17",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "f764-931a-3707-48f8", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enhancement", "id": "5aa5-6141-cc80-decd", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "c827-ca58-4ad0-a523",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1af2-d2fe-dd0a-0060",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "a260-3298-adb9-cd27",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Sprout", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Weakening", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Oracle of Wrath", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Reroll / Blitz",
+        "id": "53fa-61de-d69a-8152",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "3a35-2f5b-efb1-59dc", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enhancement", "id": "34a4-139d-de05-aa8d", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "c743-42fa-26d1-391e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "cf75-5213-9aa2-f55c",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "a2df-157a-e8c2-ea0e",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Reroll", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Blitz", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Blight Steed", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Woodwalk / Battering Ram",
+        "id": "6abd-66a1-7d3d-1f40",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "e626-e732-4550-6f9d", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "b139-3122-f640-6e9b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "cf75-5213-9aa2-f55c",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "41f3-58dc-d2f3-b793",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Woodwalk", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Battering Ram", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Blight Steed", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Woodwalk / Wild Charge",
+        "id": "32d8-262e-8ea8-4544",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "05c0-97c6-b843-74e1", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "c5f5-0d25-29ea-f078",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "cf75-5213-9aa2-f55c",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "be41-c10d-cd13-5a6a",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Woodwalk", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Wild Charge", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Blight Steed", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Green Haze / Bloodlust",
+        "id": "8114-d0f9-94e6-c93b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "ec70-336b-11b4-eecd", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enhancement", "id": "0e5a-7209-1dd7-8a08", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "1674-5652-c879-e8c2",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "8351-8a80-1e7e-eb45",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "495b-05d3-fe18-77c4",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Green Haze", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Bloodlust", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Warbeast", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Herbs / Spikes Explosion",
+        "id": "d244-28fc-cfaf-f473",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "3450-7dd1-1a9e-2f8f", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "910f-efe2-a3dd-0ef5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "70c6-4137-b90e-6607",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "735f-4293-81ea-82e4",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Herbs", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Spikes Explosion", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Forest Wraith", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "3", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Woodwalk / Shapeshift",
+        "id": "8b66-a62d-f200-2af4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "feb2-bc8b-73f6-c811", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "7b7b-2f57-2ec6-747f",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "8351-8a80-1e7e-eb45",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "edd1-aeb0-1971-49db",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Woodwalk", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Shapeshift", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Warbeast", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Defense / Burrow",
+        "id": "155f-de69-552b-3c20",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "5026-1d6a-f105-2d84", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enhancement", "id": "77e4-e05e-a854-03ba", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "1ab2-a913-0c5a-08b9",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "5291-e8b8-54c3-5cf7",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "752b-c470-ff00-f4a0",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Defense", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Burrow", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Wyrm", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Photosynthesis / Dragging",
+        "id": "a2ef-13f0-7cb8-3b29",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "0f07-eb49-0cab-d161", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "fb38-504e-f956-f31e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "5291-e8b8-54c3-5cf7",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "e83e-ee72-d905-4564",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Photosynthesis", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Dragging", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Wyrm", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Paralysis / Underground Strike",
+        "id": "dcba-44f1-884e-70ed",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "4af6-1b15-8684-13ce", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "b9d1-00b2-564d-47a3",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "5291-e8b8-54c3-5cf7",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "a493-67de-9072-b8e1",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Paralysis", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Underground Strike", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Wyrm", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dodge / Animate Woods",
+        "id": "ce57-47df-efca-71a7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "5394-c95b-2c25-a455", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enhancement", "id": "30cb-1e48-2775-3f8a", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "01f9-dbbb-6474-a297",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "6bc9-a7c5-6d85-7ae2",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "a922-ad0a-6791-f316",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Dodge", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Animate Woods", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Treemaid", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Photosynthesis / Allure",
+        "id": "3455-c4a4-9c2d-1f49",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "769f-3c72-d8f1-337c", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "97b8-cac4-e108-cfff",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "6bc9-a7c5-6d85-7ae2",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "c998-0c5a-63d2-0c0d",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Photosynthesis", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Allure", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Treemaid", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sprout / Lycanthropy",
+        "id": "f732-d285-62bf-91bd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "f8a4-93ea-01c9-fbb1", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "16d4-ed93-0851-3498",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "6bc9-a7c5-6d85-7ae2",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "9831-cd43-48f7-8f92",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Sprout", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Lycanthropy", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Treemaid", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Herbs / Sowing",
+        "id": "5e1f-53aa-d232-f33f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "bfbe-205e-f1c8-3c5a", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "7c51-a86f-bd93-e0ba",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "6bc9-a7c5-6d85-7ae2",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "f1c1-641d-a4e3-dc25",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Herbs", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Sowing", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Treemaid", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Backstab / Vanishing",
+        "id": "a484-65e1-22cf-a048",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "cdd7-d27e-25fc-8bf2", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"},
+          {"name": "Enhancement", "id": "93e2-11ef-cf84-fa9e", "hidden": false, "primary": false, "targetId": "aaf6-ddfb-1ea1-ec90"}
+        ],
+        "constraints": [
+          {
+            "id": "3689-fa5d-6520-e891",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "fca3-1094-7b0b-55e2",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "3baa-8a80-7963-0340",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Backstab", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Vanishing", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Ancient Guard", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "2", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Backstab / Poisonous Vines",
+        "id": "885f-ecf1-da08-de2c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "0c15-1da0-c262-bc09", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "a2f7-c689-7030-eca7",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "fca3-1094-7b0b-55e2",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "877f-7314-afde-9152",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Backstab", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Poisonous Vines", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Ancient Guard", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Herbs / Rooted",
+        "id": "adc4-0819-5b26-a9ae",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1f82-affd-0074-efdc", "hidden": false, "primary": true, "targetId": "2c7d-bd50-5e7a-6c03"}],
+        "constraints": [
+          {
+            "id": "879a-8c22-79c6-f515",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 4
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "fca3-1094-7b0b-55e2",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Action",
+            "id": "9adf-4622-39e6-c7c7",
+            "hidden": false,
+            "typeId": "c7fb-3192-ca76-8d92",
+            "typeName": "Action",
+            "characteristics": [
+              {"name": "Top Action", "$text": "Herbs", "typeId": "c646-7cd4-ba2f-267c"},
+              {"name": "Bottom Action", "$text": "Rooted", "typeId": "3c5c-4360-dcf5-6087"},
+              {"name": "Squad", "$text": "Ancient Guard", "typeId": "c352-2911-cb6a-f6cb"},
+              {"name": "Card count", "$text": "4", "typeId": "061e-3320-8c3a-c2be"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
