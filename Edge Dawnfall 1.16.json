@@ -1,0 +1,2862 @@
+{
+  "gameSystem": {
+    "name": "Edge: Dawnfall 1.16",
+    "id": "ec55-9fdc-cdc9-5247",
+    "authorContact": "blackfire@lion-productions.com",
+    "authorName": "Tamas \"Blackfire\" Mate",
+    "battleScribeVersion": 2.03,
+    "revision": 3,
+    "type": "gameSystem",
+    "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
+    "categoryEntries": [
+      {"name": "Squad", "id": "9337-2409-058d-6fe4", "hidden": false},
+      {"name": "Action", "id": "2c7d-bd50-5e7a-6c03", "hidden": false},
+      {"name": "Banner", "id": "1e7b-e900-34aa-19c7", "hidden": false},
+      {"name": "Shrine", "id": "4165-101d-86aa-e20c", "hidden": false},
+      {"name": "Elite", "id": "4ddc-91f7-6818-d67d", "hidden": false},
+      {"name": "Cavalry", "id": "13af-cd5e-bea3-2f72", "hidden": false},
+      {"name": "Leader", "id": "d4c6-7c34-f64a-1ac0", "hidden": false},
+      {"name": "Enhancement", "id": "aaf6-ddfb-1ea1-ec90", "hidden": false},
+      {"name": "Deployment", "id": "ae92-56d7-4374-8b57", "hidden": false}
+    ],
+    "forceEntries": [
+      {
+        "name": "Normal",
+        "id": "8cee-1cd5-3eff-42e6",
+        "hidden": false,
+        "categoryLinks": [
+          {
+            "name": "Squad",
+            "id": "4877-5df3-dade-3985",
+            "hidden": false,
+            "primary": false,
+            "targetId": "9337-2409-058d-6fe4",
+            "constraints": [
+              {
+                "id": "743d-aaa6-208f-c4f4",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": false,
+                "type": "min",
+                "value": 5
+              },
+              {
+                "id": "b6e3-fc7b-36c8-aac7",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": false,
+                "type": "max",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "name": "Action",
+            "id": "a2e3-ba23-a475-c0c0",
+            "hidden": false,
+            "primary": false,
+            "targetId": "2c7d-bd50-5e7a-6c03",
+            "constraints": [
+              {
+                "id": "76e6-275c-9198-2bb3",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": false,
+                "type": "min",
+                "value": 25
+              },
+              {
+                "id": "bca3-85b2-6646-a072",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": false,
+                "type": "max",
+                "value": 25
+              }
+            ]
+          },
+          {
+            "name": "Banner",
+            "id": "1364-a593-7807-ae5a",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1e7b-e900-34aa-19c7",
+            "constraints": [
+              {
+                "id": "73a7-93c6-d14e-468a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "9ae7-4f80-c200-af40",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Shrine",
+            "id": "a639-c065-f0a2-0e5c",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4165-101d-86aa-e20c",
+            "constraints": [
+              {
+                "id": "aea9-3487-9327-24cf",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "73ec-7939-411b-b0c0",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Deployment",
+            "id": "f0ab-b146-1b35-797b",
+            "hidden": false,
+            "primary": false,
+            "targetId": "ae92-56d7-4374-8b57",
+            "constraints": [
+              {
+                "id": "389b-fa49-e1fe-0da3",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": false,
+                "type": "min",
+                "value": 0
+              },
+              {
+                "id": "201d-9c54-c994-9764",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": false,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "389b-fa49-e1fe-0da3",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "c2e1-f866-1d2b-3972",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "389b-fa49-e1fe-0da3",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "28d4-b15b-85cf-b3d8",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "389b-fa49-e1fe-0da3",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "fb5d-ec78-3179-af5a",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "389b-fa49-e1fe-0da3",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "dd44-5098-7305-66e3",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "389b-fa49-e1fe-0da3",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "70c6-4137-b90e-6607",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "389b-fa49-e1fe-0da3",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "85c1-cf79-d293-b1a7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "389b-fa49-e1fe-0da3",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "120f-739e-9838-7542",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "profileTypes": [
+      {
+        "name": "Squad",
+        "id": "5177-fd41-ffd4-cf57",
+        "characteristicTypes": [
+          {"name": "Mode", "id": "6d72-35e7-d6fe-f004"},
+          {"name": "INI", "id": "44c3-c41b-9e4a-5d9d"},
+          {"name": "ATT", "id": "ffdc-421b-de69-d928"},
+          {"name": "DEF", "id": "43b6-8aea-d106-ee3b"},
+          {"name": "MOV", "id": "caec-4872-01a6-e4f3"},
+          {"name": "Models", "id": "b2e9-2e95-bc77-5792"},
+          {"name": "Endurance", "id": "c8be-201a-67e7-886d"},
+          {"name": "Cost of change Mode", "id": "e8cf-ee4f-7614-25ca"},
+          {"name": "Base size", "id": "c4b3-b62f-dc3d-1391"},
+          {"name": "Card count", "id": "0d2f-4c90-e7bd-efe7"}
+        ]
+      },
+      {
+        "name": "Action",
+        "id": "c7fb-3192-ca76-8d92",
+        "characteristicTypes": [
+          {"name": "Top Action", "id": "c646-7cd4-ba2f-267c"},
+          {"name": "Bottom Action", "id": "3c5c-4360-dcf5-6087"},
+          {"name": "Squad", "id": "c352-2911-cb6a-f6cb"},
+          {"name": "Card count", "id": "061e-3320-8c3a-c2be"}
+        ]
+      },
+      {"name": "Shrine&Banner", "id": "6e88-0398-10d6-fea3", "characteristicTypes": [{"name": "Short description", "id": "de7a-84e3-8e8a-5599"}]}
+    ],
+    "sharedRules": [
+      {"name": "Flying", "id": "dd1d-281f-f3a4-f32e", "description": "(#) : ignore obstacles, units while moving", "hidden": false},
+      {"name": "Reroll", "id": "e192-ab2e-4282-eea0", "description": "(*) : free reroll dice", "hidden": false},
+      {"name": "Never Push", "id": "5421-d40a-961f-cae5", "description": "Never Push when in Basic Mode.", "hidden": false}
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Angel of Death",
+        "id": "7691-38ab-a115-d7ce",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "7f53-cf60-2863-8134", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Leader", "id": "fc2d-62c2-58da-ad6e", "hidden": false, "primary": false, "targetId": "d4c6-7c34-f64a-1ac0"}
+        ],
+        "constraints": [
+          {
+            "id": "05d6-98ad-afa0-540d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "infoLinks": [
+          {"name": "Flying", "id": "95a3-2b95-a958-10c1", "hidden": false, "targetId": "dd1d-281f-f3a4-f32e", "type": "rule"},
+          {"name": "Reroll", "id": "5887-327e-203d-aaec", "hidden": false, "targetId": "e192-ab2e-4282-eea0", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "e1da-6876-896a-d73d",
+            "comment": "* : free reroll\n# : ignore obstacles",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Flight", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/3", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "2/3(*)", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "2(*)/0", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "3/6(#)", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "1", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "3", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "7", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Purge Doctor",
+        "id": "c22d-aab1-9061-0efd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "440b-d513-d4d0-584a", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Elite", "id": "bdda-1918-cd49-4bc5", "hidden": false, "primary": false, "targetId": "4ddc-91f7-6818-d67d"}
+        ],
+        "constraints": [
+          {
+            "id": "bfb9-04d8-19e6-0e32",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "a7c7-b55c-0854-5d2c",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Defense", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "1/1", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "1/1", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "1/4", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/1", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "3", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "2", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "2", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pilgrim",
+        "id": "8657-d228-7064-260a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "5140-0da7-bc91-d1ea", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "8eb0-6e22-89ab-69c9",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "df68-a087-340a-ce9f",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Run", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/1", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "1/1", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "1/0", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/4", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "4", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "1", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "1", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Holy Knight",
+        "id": "032f-fa6a-97ae-1fa7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "14f4-8d88-8db9-2a36", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "9120-09f2-288c-88c8",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          }
+        ],
+        "infoLinks": [{"name": "Reroll", "id": "7f39-3a7a-5b61-1cfd", "hidden": false, "targetId": "e192-ab2e-4282-eea0", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "f8db-0872-30d7-57b1",
+            "comment": "* : free reroll",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Upgraded", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "1/2", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "1/2(*)", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "2/3", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/2", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "1", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "1", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "2", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "2", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "3", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Holy Riders",
+        "id": "28d4-b15b-85cf-b3d8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "fecf-0fb9-502c-add2", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Cavalry", "id": "9863-16aa-48b7-c62f", "hidden": false, "primary": false, "targetId": "13af-cd5e-bea3-2f72"}
+        ],
+        "constraints": [
+          {
+            "id": "4933-ae4e-18ea-1da5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "c1dc-71a6-9e90-cfdd",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Charge", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/4", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "2/3", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "3/1", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/3", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "2", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "1", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "2", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ranger",
+        "id": "cc4f-633f-f524-ad49",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "0667-ce03-a4c5-3e8a", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "5de6-044b-e14c-f3a3",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "57be-038b-f7e4-d7a4",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Aim", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "1/0", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "0/-", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "2/0", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/-", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "2", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "1", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "1", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Frontline Chapel",
+        "id": "fc46-b576-2e3a-1515",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Shrine", "id": "1552-924a-4063-6365", "hidden": false, "primary": true, "targetId": "4165-101d-86aa-e20c"}],
+        "profiles": [
+          {
+            "name": "Shrine",
+            "id": "a4cf-cc13-9b0c-3ec9",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "Temporary raises Squad's four attributes by 1, maximum 3 times.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Sanctuary",
+        "id": "0a05-c702-a0a7-5e98",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Shrine", "id": "51d8-fd6b-88e9-e215", "hidden": false, "primary": true, "targetId": "4165-101d-86aa-e20c"}],
+        "profiles": [
+          {
+            "name": "Shrine",
+            "id": "6c6d-a442-179e-07ac",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "Bring back maximum 3 dead models.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Chapter Banner",
+        "id": "9ab9-9d4a-3aa9-b924",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Banner", "id": "952f-159f-c7c6-1c58", "hidden": false, "primary": true, "targetId": "1e7b-e900-34aa-19c7"}],
+        "profiles": [
+          {
+            "name": "Banner",
+            "id": "967e-dba2-5fa6-19a5",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "Restore 1 Endurance to Angel of Death.\nOR\nChange Mode of one Chapter Squad.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Alternative Chapter Banner",
+        "id": "be35-556b-320c-3709",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "ae8c-e917-e35f-c310", "hidden": false, "primary": true, "targetId": "1e7b-e900-34aa-19c7"}],
+        "profiles": [
+          {
+            "name": "Banner",
+            "id": "8582-d321-4efa-5a05",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "+1 Wound, if Angel of Death deals a Wound.\nOR\nRestore 1 Endurance to 1 Squad.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Alternative Demon Banner",
+        "id": "17f0-5a5f-234a-1c32",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "eb00-4545-f347-b104", "hidden": false, "primary": true, "targetId": "1e7b-e900-34aa-19c7"}],
+        "profiles": [
+          {
+            "name": "Banner",
+            "id": "06b8-2419-d6c7-f4f7",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [
+              {
+                "name": "Short description",
+                "$text": "Son of Khyber put fire on 1 model.\nOR\nPerform Combat with 1 model against all adjecent enemies.",
+                "typeId": "de7a-84e3-8e8a-5599"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Demon Banner",
+        "id": "72a5-2c9a-c4cc-9043",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "79df-3cc0-b130-4fd5", "hidden": false, "primary": true, "targetId": "1e7b-e900-34aa-19c7"}],
+        "profiles": [
+          {
+            "name": "Banner",
+            "id": "2bd6-6471-19f4-a797",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "Move Son of Khyber.\nOR\nPerform Combat with 1 model against all adjecent enemies.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Blood Altar",
+        "id": "6fda-fc94-e2f5-94d5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Shrine", "id": "7f26-9342-c31b-18f8", "hidden": false, "primary": true, "targetId": "4165-101d-86aa-e20c"}],
+        "profiles": [
+          {
+            "name": "Shrine",
+            "id": "39c1-e291-0dc4-372f",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "If adjecent model is Wounded, add +1 Wound.\nCounts as a Crystal Source.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Altar of Conquest",
+        "id": "fd01-20b3-f451-b462",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1fb7-28d1-4fad-2ccb", "hidden": false, "primary": true, "targetId": "4165-101d-86aa-e20c"}],
+        "profiles": [
+          {
+            "name": "Shrine",
+            "id": "a814-f416-ff9a-b60f",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [
+              {
+                "name": "Short description",
+                "$text": "If adjecent enemy model is killed, gain +1 VP and +1 Temporary Crystal.\nCounts as a Crystal Source.",
+                "typeId": "de7a-84e3-8e8a-5599"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Master of Elements",
+        "id": "4e07-db3a-204f-cd0c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "31b9-da27-eb92-3fa8", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "6167-d62f-fc3a-bd77",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "c850-eb83-971b-61a9",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Focus", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/0", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "1/-", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "2/0", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "3/-", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "1", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "3", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "1", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bloodsmith",
+        "id": "9c12-e01e-1899-5468",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "4959-28e7-5e2c-f944", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Elite", "id": "2237-b04b-6fa8-d0e9", "hidden": false, "primary": false, "targetId": "4ddc-91f7-6818-d67d"}
+        ],
+        "constraints": [
+          {
+            "id": "28f2-bad4-4142-dae8",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "6151-8bb8-4486-346b",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Strong", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/3", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "3/4", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "1/2", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/4", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "3", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "1", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "- (2)", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "1", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Son of Khyber",
+        "id": "fffb-a378-416e-57c2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "aeb2-d22a-3b4b-371a", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Leader", "id": "0916-380c-2430-e03b", "hidden": false, "primary": false, "targetId": "d4c6-7c34-f64a-1ac0"}
+        ],
+        "constraints": [
+          {
+            "id": "250f-a19d-5b52-b719",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "infoLinks": [{"name": "Reroll", "id": "4db4-4561-035a-7e27", "hidden": false, "targetId": "e192-ab2e-4282-eea0", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "e647-d62d-4f77-789c",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Rage", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/2", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "3/3(*)", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "1/0", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "3/4", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "1", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "4", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "7", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Scholar",
+        "id": "f9e2-818f-b66c-4393",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "d5bb-19ed-b557-14d3", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "3a3f-e124-b105-6377",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "ad6f-8e6e-7ab7-e92a",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Ritual", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/0", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "0/0", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "1/0", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/1", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "3", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "1", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "1", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "2", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Succubus",
+        "id": "c2e1-f866-1d2b-3972",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "4c93-c941-f55e-3639", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Cavalry", "id": "c309-d77c-1b9c-f747", "hidden": false, "primary": false, "targetId": "13af-cd5e-bea3-2f72"}
+        ],
+        "constraints": [
+          {
+            "id": "5df8-ffb2-b684-8476",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "infoLinks": [{"name": "Reroll", "id": "55ac-e26f-02c3-7921", "hidden": false, "targetId": "e192-ab2e-4282-eea0", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "3fe2-8649-2810-4740",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Illusions", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/3", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "0(*)/-", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "0/2", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/0", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "3", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "1", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "1", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gorehound",
+        "id": "9f73-a7de-ebe6-61c7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "e0c8-b797-0bf7-c7a9", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "30db-b216-5efe-2a8b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "infoLinks": [{"name": "Flying", "id": "1ca6-9462-694b-b856", "hidden": false, "targetId": "dd1d-281f-f3a4-f32e", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "9923-61f0-14dc-f93f",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Astral", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "4/2", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "3/2", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "1/0", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "1/7(#)", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "1", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "1", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "2", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "2", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rha-Zack Banner",
+        "id": "6a39-c080-d890-64dd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "accd-5eac-da5c-d0ec", "hidden": false, "primary": true, "targetId": "1e7b-e900-34aa-19c7"}],
+        "profiles": [
+          {
+            "name": "Banner",
+            "id": "f49c-05ae-0e67-485c",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "Take back played Action.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Rha-Zack Alternative Banner",
+        "id": "3609-53be-80c4-921c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "ba61-9e81-1941-3856", "hidden": false, "primary": true, "targetId": "1e7b-e900-34aa-19c7"}],
+        "profiles": [
+          {
+            "name": "Banner",
+            "id": "1f0d-5238-6c52-168c",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "Play both top and bottom Action for one cost.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Energy Cloud",
+        "id": "6b8e-5816-6e13-57aa",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Shrine", "id": "6582-214e-42ca-ae31", "hidden": false, "primary": true, "targetId": "4165-101d-86aa-e20c"}],
+        "profiles": [
+          {
+            "name": "Shrine",
+            "id": "2b74-eca0-4f1b-1911",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "All adjecent enemy models get -2 DEF nad -2 INI.\nMovable shrine.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Voltaic Capacitor",
+        "id": "0b2e-d015-91a3-6fbe",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Shrine", "id": "90f0-8f8a-b75c-3e17", "hidden": false, "primary": true, "targetId": "4165-101d-86aa-e20c"}],
+        "profiles": [
+          {
+            "name": "Shrine",
+            "id": "001d-5df2-7d0a-bb45",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [
+              {
+                "name": "Short description",
+                "$text": "When repositioning, Push models and charge 1 Enhancement with 1 Charge by pushed models.",
+                "typeId": "de7a-84e3-8e8a-5599"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Infinity Angel",
+        "id": "160e-c720-ec8a-9e5d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "ddd9-aa5d-02d8-18ff", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Leader", "id": "03cc-54df-91b2-bbee", "hidden": false, "primary": false, "targetId": "d4c6-7c34-f64a-1ac0"}
+        ],
+        "constraints": [
+          {
+            "id": "dc4e-7206-d0e7-75f5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "infoLinks": [{"name": "Flying", "id": "93c8-f679-8e6c-687f", "hidden": false, "targetId": "dd1d-281f-f3a4-f32e", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "ec0e-d08d-3262-dee9",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Flight", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/4", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "2/1", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "2/0", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "3/6(#)", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "1", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "4", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "7", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stream Guard",
+        "id": "8e06-f08b-c7a8-8345",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "4032-eadd-b7ce-f8f5", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "44f0-eb3d-e2c1-9cb0",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "9cd2-1ad3-d061-4776",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Guard", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "3/0", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "3/1", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "0/3", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "3/3", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "1", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "2", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "2", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "2", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Storm Bringer",
+        "id": "283b-729c-1da3-b6ea",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "bba5-d851-200e-796c", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "0573-7f54-7b63-f1fd",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "48e1-76f2-f0d9-d387",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Energy", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/1", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "1/0", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "2/1", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/4", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "2", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "1", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "1/3", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stream Surfer",
+        "id": "8cbf-47c2-f467-0ed1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "1259-901b-4213-e40d", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "2741-c1c2-53eb-3a67",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "infoLinks": [{"name": "Never Push", "id": "82f5-9984-2aef-7966", "hidden": false, "targetId": "5421-d40a-961f-cae5", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "b792-1bd4-02a0-f511",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Speed", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "3/5", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "2/1", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "2/0", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "5/7", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "3", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "0", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "2", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Source Blade",
+        "id": "449c-443c-6a52-cadf",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "785f-081f-4e93-80f4", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Elite", "id": "51b3-4c1c-487c-2c8a", "hidden": false, "primary": false, "targetId": "4ddc-91f7-6818-d67d"}
+        ],
+        "constraints": [
+          {
+            "id": "39c8-c76a-9ef3-4c8a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "31c5-c247-067a-030a",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Running", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/3", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "4/3", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "0/0", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/4", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "3", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "1", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "2", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Jumpsuit",
+        "id": "fb5d-ec78-3179-af5a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "0cb3-e16b-96f6-c0d3", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Cavalry", "id": "32d3-0dda-f127-c14d", "hidden": false, "primary": false, "targetId": "13af-cd5e-bea3-2f72"}
+        ],
+        "constraints": [
+          {
+            "id": "8046-1dde-8829-39a1",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "infoLinks": [{"name": "Reroll", "id": "b98a-7732-41b8-7f8e", "hidden": false, "targetId": "e192-ab2e-4282-eea0", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "6a66-89a6-3e43-8b74",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Jump", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/4", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "3(*)/1", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "0/2", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/2", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "1", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "2", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "3", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dvergar Banner",
+        "id": "c7cd-d820-181e-2d66",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Banner", "id": "4032-b38e-307e-a03d", "hidden": false, "primary": true, "targetId": "1e7b-e900-34aa-19c7"}],
+        "profiles": [
+          {
+            "name": "Banner",
+            "id": "1836-b1d3-cbba-03b5",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [
+              {
+                "name": "Short description",
+                "$text": "Join 2 Dvergal models (to 1 model).\nOR\nMove any number of Enhancements, Charges and Endurance tokens between Dvergar Squads.",
+                "typeId": "de7a-84e3-8e8a-5599"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Alternative Dvergar Banner",
+        "id": "258f-ef31-5573-b1aa",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Banner", "id": "e68a-ebe9-2b99-801e", "hidden": false, "primary": true, "targetId": "1e7b-e900-34aa-19c7"}],
+        "profiles": [
+          {
+            "name": "Banner",
+            "id": "0532-f759-0521-ecdc",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "Choose red die.\nOR\nRefresh 1 Crystal by Shrine.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Factory",
+        "id": "b371-9f03-afad-c84d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a2d6-92b7-d450-427b", "hidden": false, "primary": true, "targetId": "4165-101d-86aa-e20c"}],
+        "profiles": [
+          {
+            "name": "Shrine",
+            "id": "b92e-b0ec-f8d3-dfa7",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "Pay Endurance for red die or reroll.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Junkyard",
+        "id": "daf7-0441-7e9b-c688",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "d7bd-1154-301a-f508", "hidden": false, "primary": true, "targetId": "4165-101d-86aa-e20c"}],
+        "profiles": [
+          {
+            "name": "Shrine",
+            "id": "e60f-2c7f-c76a-ba8f",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [
+              {"name": "Short description", "$text": "Charge up adjecent Squad of Enchancements by 2\nAND\npick up 1 Endurance from Shrine.", "typeId": "de7a-84e3-8e8a-5599"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Drillers",
+        "id": "dd44-5098-7305-66e3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "e22d-30e6-82bc-c826", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Cavalry", "id": "c485-29b6-0a76-e70e", "hidden": false, "primary": false, "targetId": "13af-cd5e-bea3-2f72"}
+        ],
+        "constraints": [
+          {
+            "id": "c82f-4cca-978a-fa6c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "0e8d-e74a-e7d3-eab9",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Drill", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "1/2", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "2/3", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "3/1", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "3/1", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "2", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "2", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "2", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Flame Keeper",
+        "id": "5da8-0892-c015-e0dc",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "8200-7d80-d891-7e37", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "fd63-4647-41f2-5aaa",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "c43e-635d-6e1d-0647",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Active", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/0", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "1/0", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "3/0", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/1", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "2", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "2", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "2", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Enkindled",
+        "id": "768e-f27a-b88d-5aa9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "db43-2026-5ec8-4c2e", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "89ac-011e-50ef-4e9d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "1343-89c1-4475-0cdb",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Attack", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/1", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "1/3", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "2/1", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/1", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "3", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "2", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "1", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Avenger",
+        "id": "94ad-6f9c-a0a4-286b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "70ac-0464-a49c-fdde", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Leader", "id": "f3f2-4ec1-3d36-cea0", "hidden": false, "primary": false, "targetId": "d4c6-7c34-f64a-1ac0"}
+        ],
+        "constraints": [
+          {
+            "id": "56cc-8f5e-d116-fb9a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "db66-064f-93b6-b811",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Attack", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/2", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "2/4", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "5/2", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/5", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "1", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "4", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "7", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gyrobot",
+        "id": "56c8-6e4f-5a96-5e55",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "ebe6-0578-a74f-6646", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Elite", "id": "ac3a-4a57-04fa-5182", "hidden": false, "primary": false, "targetId": "4ddc-91f7-6818-d67d"}
+        ],
+        "constraints": [
+          {
+            "id": "d212-fdd9-082f-f623",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "6571-3e6a-25e2-5bde",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Shooting", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "1/0", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "2/0", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "2/0", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "3/0", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "3", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "2", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "3", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Unbroken",
+        "id": "8043-5838-f4b2-eb84",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "41ad-3a9e-e3aa-8ba5", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "8c42-5765-2f55-a436",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "infoLinks": [{"name": "Reroll", "id": "0df8-c6ca-8303-ed1a", "hidden": false, "targetId": "e192-ab2e-4282-eea0", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "9cef-cfc0-2c49-87cf",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Vigilance", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "1/0", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "0/2", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "3(*)/3", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/1", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "2", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "2", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "2", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "2", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Reborn Banner",
+        "id": "0ccb-b5c1-8ace-61a8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "18f1-4850-ab5e-c29a", "hidden": false, "primary": true, "targetId": "1e7b-e900-34aa-19c7"}],
+        "profiles": [
+          {
+            "name": "Banner",
+            "id": "3744-4f7a-52fe-574b",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "Place 1 Thicket near Oracle or Reborn Shrine.\nOR\nMove 1 Thicket 1 Space.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Alternative Reborn Banner",
+        "id": "adca-9d17-97d4-16fb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Banner", "id": "fe26-b9ef-30f3-8f28", "hidden": false, "primary": true, "targetId": "1e7b-e900-34aa-19c7"}],
+        "profiles": [
+          {
+            "name": "Banner",
+            "id": "ded8-7691-b565-2524",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [
+              {
+                "name": "Short description",
+                "$text": "Place 1 Thicket near Oracle or Reborn Shrine.\nOR\nAdd 2 Charges to Squad adjecent to Thicket.",
+                "typeId": "de7a-84e3-8e8a-5599"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thornheart Wood",
+        "id": "3682-6030-dd87-c8ac",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "2f99-0273-2dac-409d", "hidden": false, "primary": true, "targetId": "4165-101d-86aa-e20c"}],
+        "profiles": [
+          {
+            "name": "Shrine",
+            "id": "a56a-6665-be37-706e",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "Deal 1 Wound to each enemy adjecent to Shrine.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Sapping Briar",
+        "id": "a696-f546-97ff-fa30",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "7a50-1086-1feb-f34f", "hidden": false, "primary": true, "targetId": "4165-101d-86aa-e20c"}],
+        "profiles": [
+          {
+            "name": "Shrine",
+            "id": "0e7f-6a6d-7454-2c9f",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "If enemy adjecent to Reborn Shrine is wounded, restore Endurance to Reborn Squad.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Oracle of Wrath",
+        "id": "1af2-d2fe-dd0a-0060",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "5a11-5d8d-b8bf-bd82", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Leader", "id": "b878-49a4-3c7f-5c3d", "hidden": false, "primary": false, "targetId": "d4c6-7c34-f64a-1ac0"}
+        ],
+        "constraints": [
+          {
+            "id": "412a-9816-d09b-e1d0",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "82ab-2119-08d5-94ba",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Move", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/2", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "2/0", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "4/2", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/6", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "1", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "4", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "3", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Treemaid",
+        "id": "6bc9-a7c5-6d85-7ae2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "ccb6-298a-f198-9bf9", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "0dd0-04cd-7b3a-2008",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "6047-e0f6-a71b-44ff",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Running", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "1/0", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "1/0", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "2/1", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/4", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "4", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "0", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "1", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Wyrm",
+        "id": "5291-e8b8-54c3-5cf7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "3f94-ef60-c38d-b626", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "3394-c3e8-7835-8f14",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "86f4-773b-13ec-5dd6",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Burrowed", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "3/0", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "3/-", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "0/6", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "3/1", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "2", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "1", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "1", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warbeast",
+        "id": "8351-8a80-1e7e-eb45",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "cfc4-bf4c-174a-ec34", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "fa45-5105-2c89-45b5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "5c36-0917-390e-4c73",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Frenzy", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "1/3", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "1/2", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "2/1", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "3/3", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "2", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "2", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "3", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Forest Wraith",
+        "id": "70c6-4137-b90e-6607",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "98b7-ed8f-623a-9877", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Cavalry", "id": "8acc-f858-f1a3-da34", "hidden": false, "primary": false, "targetId": "13af-cd5e-bea3-2f72"}
+        ],
+        "constraints": [
+          {
+            "id": "095f-bb27-58da-1d13",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "infoLinks": [
+          {"name": "Flying", "id": "a826-9f64-07c8-56e0", "hidden": false, "targetId": "dd1d-281f-f3a4-f32e", "type": "rule"},
+          {"name": "Reroll", "id": "7957-886d-e30c-4855", "hidden": false, "targetId": "e192-ab2e-4282-eea0", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "b978-f697-ad78-7a2d",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Wraith", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/1", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "2(*)/1", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "3/3", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "4/2(#)", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "1", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "2", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "3", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Blight Steed",
+        "id": "cf75-5213-9aa2-f55c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "1386-7bdd-26c3-4f6b", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "0eea-7b24-bb09-7e50",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "infoLinks": [
+          {"name": "Flying", "id": "a37f-dc17-5bd8-f622", "hidden": false, "targetId": "dd1d-281f-f3a4-f32e", "type": "rule"},
+          {"name": "Reroll", "id": "a389-cb7a-e7a7-38bb", "hidden": false, "targetId": "e192-ab2e-4282-eea0", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "b472-e32f-c516-0f7f",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Charge", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "3/2", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "2/4", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "2/0", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "4/6", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "1", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "2", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "3", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ancient Guard",
+        "id": "fca3-1094-7b0b-55e2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "ce0c-cb67-0ce0-47c7", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Elite", "id": "81e6-0ee5-9777-5cdf", "hidden": false, "primary": false, "targetId": "4ddc-91f7-6818-d67d"}
+        ],
+        "constraints": [
+          {
+            "id": "d541-f0dc-1e21-6b6f",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "infoLinks": [{"name": "Reroll", "id": "ff37-40cc-0490-bc9f", "hidden": false, "targetId": "e192-ab2e-4282-eea0", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "9008-80fc-9c8e-a6e8",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Hard", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "1/0", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "2/3", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "3/3(*)", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "1/0", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "3", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "2", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "2", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Incubation Chamber",
+        "id": "fb09-6a19-a599-38c2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "d345-51a7-36be-fa65", "hidden": false, "primary": true, "targetId": "4165-101d-86aa-e20c"}],
+        "profiles": [
+          {
+            "name": "Shrine",
+            "id": "2488-3c82-2418-914e",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "Sacrifice 1 modell to Evolve or Change Mode.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Hatchery",
+        "id": "616c-958a-b1d7-c524",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "738b-a869-434c-0f64", "hidden": false, "primary": true, "targetId": "4165-101d-86aa-e20c"}],
+        "profiles": [
+          {
+            "name": "Shrine",
+            "id": "e80e-8651-a0aa-61c1",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "Restore 1 Endurance to each adjecent Squad.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Alternative Faceless Banner",
+        "id": "21c0-ec05-d5da-8a5c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Banner", "id": "4cb3-c402-4824-d883", "hidden": false, "primary": true, "targetId": "1e7b-e900-34aa-19c7"}],
+        "profiles": [
+          {
+            "name": "Banner",
+            "id": "dab6-ffae-836c-3e8f",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [
+              {
+                "name": "Short description",
+                "$text": "Change Squad Mode.\nOR\nWhen play an Evolve, bring back dead models from Evolving Squad.",
+                "typeId": "de7a-84e3-8e8a-5599"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Faceless Banner",
+        "id": "552a-a088-a76e-2681",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Banner", "id": "86d3-0caa-310d-29ec", "hidden": false, "primary": true, "targetId": "1e7b-e900-34aa-19c7"}],
+        "profiles": [
+          {
+            "name": "Banner",
+            "id": "522c-9c32-1f98-2a04",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [
+              {
+                "name": "Short description",
+                "$text": "Remove 1 dead modell from game to gain 1 Crystal.\nOR\nWhen play an Evolve, bring back dead models from Evolving Squad.",
+                "typeId": "de7a-84e3-8e8a-5599"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Anathema",
+        "id": "85c1-cf79-d293-b1a7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "c930-11c8-977e-1607", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Cavalry", "id": "93b8-8e5c-dd1e-0d16", "hidden": false, "primary": false, "targetId": "13af-cd5e-bea3-2f72"}
+        ],
+        "constraints": [
+          {
+            "id": "2533-ac24-3b99-8a16",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "63bc-d36a-7ba8-c262",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Abomination", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "1/X", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "1/X", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "1/X", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/4", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "1", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "4", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "3", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fleshripper",
+        "id": "b554-56b1-6ea3-b776",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "52c6-f906-2b55-feec", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Elite", "id": "dc73-352d-9b5f-49ce", "hidden": false, "primary": false, "targetId": "4ddc-91f7-6818-d67d"}
+        ],
+        "constraints": [
+          {
+            "id": "f7fa-b95d-3295-a008",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "6d96-db99-9748-3d08",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Joined/Evolved", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "1/2/3", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "2/3/4", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "1/1/2", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "1/2/3", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "3", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "1", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "2", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "2", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bladebreeder",
+        "id": "e53b-e8a7-4562-e6e3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "0d55-75ce-984c-b74d", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "b611-53b8-2595-eb28",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "90ac-dee1-90b9-0275",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Joined/Evolved", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "1/2/3", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "2/3/4", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "0/1/2", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/3/4", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "2", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "1", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "1", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "1", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Harvester",
+        "id": "750d-f093-3f2b-655c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "072d-3772-03fe-61fe", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "eb5e-8682-c322-ecd3",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "6d32-a6a5-17f7-8770",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Joined/Evolved", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "1/2/3", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "2/3/4", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "1/1/3", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "4/6/8", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "1", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "2", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "2", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "3", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Berserker",
+        "id": "af30-66ea-a266-c2a4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "a66e-797d-63c0-80c3", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "b329-d26c-d250-f5cb",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "ea99-d97f-f31d-26de",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Joined/Evolved", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "1/2/3", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "1/2/3", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "0/0/1", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "1/2/3", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "3", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "1", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "1", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "1", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "2", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Shatterer",
+        "id": "2067-cfdd-225c-359a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "e2be-b98d-c35e-bb97", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Leader", "id": "e110-a3b3-9fbf-5376", "hidden": false, "primary": false, "targetId": "d4c6-7c34-f64a-1ac0"}
+        ],
+        "constraints": [
+          {
+            "id": "7ab3-1f5d-e9f8-d19d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "3fcd-345a-9263-4375",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Joined/Evolved Defensive/Evolved Assimilated/Evolved Ascended", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "1/2/3/4/4", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "2/4/3/6/6", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "0/1/4/0/3", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/4/6/6/12", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "1", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "4", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "2", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "7", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Alternative Darkness Banner",
+        "id": "8753-d2a3-93f5-3c74",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Banner", "id": "2abd-1ead-30a2-e1a8", "hidden": false, "primary": true, "targetId": "1e7b-e900-34aa-19c7"}],
+        "profiles": [
+          {
+            "name": "Banner",
+            "id": "6918-170b-c953-52a3",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "Summon Abyssal Empress Squad for 5 DP.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Darkness Banner",
+        "id": "40be-a45a-62e4-2f18",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Banner", "id": "7d03-8130-a4df-833c", "hidden": false, "primary": true, "targetId": "1e7b-e900-34aa-19c7"}],
+        "profiles": [
+          {
+            "name": "Banner",
+            "id": "ce6e-dd22-6129-1b89",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "Summon Abyssal Empress Squad for 8 DP.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Shadow Gate",
+        "id": "a4f1-09f2-eeee-4318",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c2fb-ee3a-9301-843b", "hidden": false, "primary": true, "targetId": "4165-101d-86aa-e20c"}],
+        "profiles": [
+          {
+            "name": "Shrine",
+            "id": "a511-a9dc-58a1-8871",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "Spawn another Shrine.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Shadow Vortex",
+        "id": "80ee-a4f3-7414-6f7f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "6bd0-7425-96b7-0221", "hidden": false, "primary": true, "targetId": "4165-101d-86aa-e20c"}],
+        "profiles": [
+          {
+            "name": "Shrine",
+            "id": "74f4-5bd8-cc72-9579",
+            "hidden": false,
+            "typeId": "6e88-0398-10d6-fea3",
+            "typeName": "Shrine&Banner",
+            "characteristics": [{"name": "Short description", "$text": "Spawn DP, if adjecent enemy modell move away.", "typeId": "de7a-84e3-8e8a-5599"}]
+          }
+        ]
+      },
+      {
+        "name": "Bell Crow",
+        "id": "d8e7-fdfc-2e2f-8c41",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "dab8-a7d5-facb-59e0", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Leader", "id": "1e96-5b31-8f71-a0ca", "hidden": false, "primary": false, "targetId": "d4c6-7c34-f64a-1ac0"}
+        ],
+        "constraints": [
+          {
+            "id": "30ce-f00f-d3b4-389e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "4894-3673-48d3-fede",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Dark", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/3", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "2/3", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "4/3", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/3", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "1", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "4", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "7", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Slaughter Crows",
+        "id": "38ad-dee4-3684-11da",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "6e5b-54bf-6489-5d97", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "fc95-df28-36d0-0b69",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "3f24-825f-9df5-7ea3",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Dark", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/3", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "2/3", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "0/0", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "3/4", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "4", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "1", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "3", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "1", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Impostor",
+        "id": "9fcd-be42-2555-88a8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "532b-52d0-34c4-f064", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "fe44-c11e-6f55-f20d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "infoLinks": [{"name": "Reroll", "id": "d4e4-d61c-2b92-a8e0", "hidden": false, "targetId": "e192-ab2e-4282-eea0", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "2508-cdb0-7347-964c",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Dark", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/3", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "1/2", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "2(*)/1", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/2", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "3", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "1", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "1", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Shadow",
+        "id": "2cf3-aaf8-0ede-6b81",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "b02b-99a6-cc80-6e11", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "a1a3-bb23-3cee-0be6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "infoLinks": [{"name": "Flying", "id": "497d-01b2-34bc-6cc6", "hidden": false, "targetId": "dd1d-281f-f3a4-f32e", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "b5e1-340e-88ee-c377",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Dark", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/2", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "1/2", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "2/0", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2(#)/2", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "4", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "0", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "1", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Prime Shadow",
+        "id": "120f-739e-9838-7542",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Squad", "id": "09d7-b043-fff5-04b5", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"},
+          {"name": "Cavalry", "id": "debf-cb8d-87d7-283c", "hidden": false, "primary": false, "targetId": "13af-cd5e-bea3-2f72"}
+        ],
+        "constraints": [
+          {
+            "id": "180f-cd0c-c898-6baf",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "infoLinks": [{"name": "Reroll", "id": "107d-0853-71ce-0437", "hidden": false, "targetId": "e192-ab2e-4282-eea0", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "2fc6-2c51-b940-4556",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Dark", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "4/2", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "1/-", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "3(*)/0", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/0", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "1", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "2", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "3", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Void Specter",
+        "id": "8ec5-3895-9783-631f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Squad", "id": "e97e-c98d-8a06-3a59", "hidden": false, "primary": true, "targetId": "9337-2409-058d-6fe4"}],
+        "constraints": [
+          {
+            "id": "db54-9e1a-fe01-7f06",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Squad",
+            "id": "df5c-be84-2679-9a9b",
+            "hidden": false,
+            "typeId": "5177-fd41-ffd4-cf57",
+            "typeName": "Squad",
+            "characteristics": [
+              {"name": "Mode", "$text": "Basic/Dark", "typeId": "6d72-35e7-d6fe-f004"},
+              {"name": "INI", "$text": "2/1", "typeId": "44c3-c41b-9e4a-5d9d"},
+              {"name": "ATT", "$text": "2/2", "typeId": "ffdc-421b-de69-d928"},
+              {"name": "DEF", "$text": "0/2", "typeId": "43b6-8aea-d106-ee3b"},
+              {"name": "MOV", "$text": "2/3", "typeId": "caec-4872-01a6-e4f3"},
+              {"name": "Models", "$text": "2", "typeId": "b2e9-2e95-bc77-5792"},
+              {"name": "Endurance", "$text": "2", "typeId": "c8be-201a-67e7-886d"},
+              {"name": "Cost of change Mode", "$text": "0", "typeId": "e8cf-ee4f-7614-25ca"},
+              {"name": "Base size", "$text": "2", "typeId": "c4b3-b62f-dc3d-1391"},
+              {"name": "Card count", "$text": "1", "typeId": "0d2f-4c90-e7bd-efe7"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
